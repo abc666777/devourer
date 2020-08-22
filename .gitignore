@@ -58,3 +58,20 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+#unity temp 
+
+Devourer/obj/
+Devourer/Assembly-CSharp.csproj.meta
+Devourer/Assembly-CSharp-Editor.csproj.meta
+Devourer/Assembly-CSharp-firstpass.csproj.meta
+Devourer/Assets/Plugins/Editor/JetBrains/
+Devourer/SwitchIL2CPPCache/
+Devourer/Assembly-CSharp.csproj
+Devourer/Devourer.sln
+Devourer/Library
+Devourer/Temp
+*idea
+/obj
+.csproj
+/.idea
+/Jetbrain
