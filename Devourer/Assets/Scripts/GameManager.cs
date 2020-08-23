@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
     {
         //InvokeRepeating("SpawnMonsters", 2f, 3f);
         //InvokeRepeating("SpawnItems", 2f, 3f);
+
     }
 
     // Update is called once per frame
