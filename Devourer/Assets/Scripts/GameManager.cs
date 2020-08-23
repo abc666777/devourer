@@ -14,8 +14,7 @@ public class GameManager : MonoBehaviour
     }
     void Start()
     {
-        InvokeRepeating(Instantiate(arrayOfMonsters[Random.Range(0, 1)]), 2.0f, 0.3f);
-        InvokeRepeating(Instantiate(arrayOfItems[Random.Range(0, 1)]), 5f, 5f);
+        InvokeRepeating("SpawnMonster", 2f, 3f);
     }
 
     // Update is called once per frame
@@ -24,8 +23,13 @@ public class GameManager : MonoBehaviour
 
     }
 
-    void SpawnMonsters(GameObject ob)
+    void SpawnMonsters()
     {
+        Instantiate(arrayOfMonsters[Random.Range(0, arrayOfMonsters.Length)]);
+    }
 
+    void SpawnItems()
+    {
+        Instantiate(arrayOfItems[Random.Range(0, arrayOfItems.Length)]);
     }
 }
