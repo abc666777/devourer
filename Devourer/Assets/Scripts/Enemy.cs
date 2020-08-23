@@ -25,7 +25,6 @@ public class Enemy : MonoBehaviour
             }
             else
             {
-                Debug.Log("Fuck");
                 Destroy(player.gameObject);
             }
         }
