@@ -32,5 +32,9 @@ public class Enemy : MonoBehaviour
                 Destroy(player.gameObject);
             }
         }
+
+        if(col.gameObject.name.Contains("Bound")){
+            Destroy(gameObject);
+        }
     }
 }

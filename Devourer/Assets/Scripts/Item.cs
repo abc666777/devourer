@@ -23,6 +23,10 @@ public class Item : MonoBehaviour
             }
             Destroy(gameObject);
         }
+
+        if(col.gameObject.name.Contains("Bound")){
+            Destroy(gameObject);
+        }
     }
 
     void Innitialize(EFFECT_TYPE type)
