@@ -19,8 +19,12 @@ public class Enemy : MonoBehaviour
         {
             if (player.level >= level)
             {
+                player.score += (level * 100);
+                player.hunger += level;
                 player.progress += 3 * level;
                 player.LevelUp();
+                UIManager.instance.SetScore();
+                UIManager.instance.SetProgressBar();
                 Destroy(gameObject);
             }
             else
