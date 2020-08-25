@@ -61,9 +61,8 @@ public class PlayerController : MonoBehaviour
             level = 2;
             UIManager.instance.ActivateMilestoneLayout(level);
             StopLevelingUp();
-            Debug.Log(level);
             levelingUp = StartCoroutine(LevelingUp(new Vector3(2,2,0),5f));
-            Debug.Log(isLevelingUp);
+            GameManager.instance.AddMonster(2);
         }
         else if (progress >= 66 && level < 3)
         {
@@ -71,6 +70,8 @@ public class PlayerController : MonoBehaviour
             UIManager.instance.ActivateMilestoneLayout(level);
             StopLevelingUp();
             levelingUp = StartCoroutine(LevelingUp(new Vector3(3,3,0),7f));
+            GameManager.instance.AddMonster(3);
+            GameManager.instance.AddBomb();
         }
 
         if(progress > 100) progress = 100;

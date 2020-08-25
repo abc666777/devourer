@@ -46,7 +46,7 @@ public class UIManager : MonoBehaviour
                 milestone2.color = new Color(milestone2.color.r, milestone2.color.g, milestone2.color.b, 1);
                 break;
             case 3:
-                milestone2.color = new Color(milestone2.color.r, milestone2.color.g, milestone2.color.b, 1);
+                milestone3.color = new Color(milestone3.color.r, milestone3.color.g, milestone3.color.b, 1);
                 break;
             default:
                 break;

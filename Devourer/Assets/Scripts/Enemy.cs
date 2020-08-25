@@ -8,7 +8,8 @@ public class Enemy : MonoBehaviour
     PlayerController player;
     private void Awake()
     {
-        player = GameObject.Find("Player").GetComponent<PlayerController>();
+        if(GameObject.Find("Player") != null)
+            player = GameObject.Find("Player").GetComponent<PlayerController>();
     }
     // Start is called before the first frame update
 
@@ -17,7 +18,7 @@ public class Enemy : MonoBehaviour
 
         if (col.gameObject.name == "EatCollider")
         {
-            if (player.level >= level)
+            if (player.level >= level && player)
             {
                 player.score += (level * 100);
                 player.hunger += level;
@@ -29,7 +30,7 @@ public class Enemy : MonoBehaviour
             }
             else
             {
-                Destroy(player.gameObject);
+                if(player) Destroy(player.gameObject);
             }
         }
 

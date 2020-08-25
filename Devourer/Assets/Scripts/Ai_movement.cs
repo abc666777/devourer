@@ -21,7 +21,6 @@ public class Ai_movement : MonoBehaviour
 
     // Update is called once per frame
     void FixedUpdate(){
-        Debug.Log(rotateNorUorD);
         if(isWander){
             wander = StartCoroutine(Wander());
         }
@@ -39,7 +38,6 @@ public class Ai_movement : MonoBehaviour
     }
 
     IEnumerator Wander(){
-        Debug.Log(rotateNorUorD);
         int rotateWait = Random.Range(1, 4); //รอหมุน
         int rotateLorR = Random.Range(1, 3); //ซ้ายหรือขวา 1 L 2 R
         rotateNorUorD = Random.Range(1, 4); //ไม่,บนหรือล่าง 1 N 2 U 3 D

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1122949062396279624}
   - component: {fileID: 1122949062396279625}
   - component: {fileID: 6968149179027418119}
-  - component: {fileID: -5407095007769508232}
+  - component: {fileID: -4530733974572628461}
   m_Layer: 0
   m_Name: EnemyLevel1
   m_TagString: Untagged
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movespeed: 5
   rotspeed: 100
---- !u!50 &-5407095007769508232
+--- !u!50 &-4530733974572628461
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
