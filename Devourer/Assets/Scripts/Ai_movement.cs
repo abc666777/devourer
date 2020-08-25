@@ -7,26 +7,26 @@ public class Ai_movement : MonoBehaviour
     public float movespeed = 5f;
     public float rotspeed = 100f; // rot = rotation
 
-    private bool iswander = false; //จะเดินหรือไม่
-    private bool iswalking = true; //เดินอยู่หรือไม่
-    private bool isLeftorRight = true; //ไปทางซ้ายหรือไปทางขวา true = ขวา false = ซ้าย
-    private int rotateNorUorD;
+    private int isLeftorRight; //ไปทางซ้ายหรือไปทางขวา true = ขวา false = ซ้าย
+    private int[] arrayOfLeftRight = {-1, 1};
+    private int[] arrayOfUpDirection = {-1,0,1};
+
+    private int upDirection;
 
     // Start is called before the first frame update
     void Start()
     {
+        if(transform.position.x > 0) isLeftorRight = -1;
+        else if(transform.position.x < 0) isLeftorRight = 1;
+        upDirection = arrayOfUpDirection[Random.Range(0,arrayOfUpDirection.Length)];
         movespeed = Random.Range(1,6);
-        rotateNorUorD = Random.Range(1,4);
+        wander = StartCoroutine(Wander());
     }
 
     // Update is called once per frame
     void FixedUpdate(){
-        if(isWander){
-            wander = StartCoroutine(Wander());
-        }
-        if(iswalking == true){
-            transform.position += new Vector3(isLeftorRight ? movespeed * Time.deltaTime : movespeed * Time.deltaTime * -1, IsUorDorN() * Time.deltaTime,0);
-        }
+        gameObject.GetComponent<SpriteRenderer>().flipX = isLeftorRight > 0 ? true : false; 
+        transform.position += new Vector3(movespeed * Time.deltaTime * isLeftorRight, upDirection * Time.deltaTime,0);
     }
 
     Coroutine wander = null;
@@ -38,39 +38,10 @@ public class Ai_movement : MonoBehaviour
     }
 
     IEnumerator Wander(){
-        int rotateWait = Random.Range(1, 4); //รอหมุน
-        int rotateLorR = Random.Range(1, 3); //ซ้ายหรือขวา 1 L 2 R
-        rotateNorUorD = Random.Range(1, 4); //ไม่,บนหรือล่าง 1 N 2 U 3 D
-        int walkWait = Random.Range(1, 6); //รอเดิน
-        int walkTime = Random.Range(1, 6);
-
-        yield return new WaitForSeconds(rotateWait);
-
-        if(rotateLorR == 2){
-            isLeftorRight = true;
+        while(true){
+            isLeftorRight = arrayOfLeftRight[Random.Range(0,arrayOfLeftRight.Length)];
+            upDirection = arrayOfUpDirection[Random.Range(0,arrayOfUpDirection.Length)];
+            yield return new WaitForSeconds(Random.Range(1,10));
         }
-        if(rotateLorR == 1){
-            isLeftorRight = false;
-        }
-
-        yield return new WaitForSeconds(walkWait);
-        iswalking = true;
-
-        yield return new WaitForSeconds(walkTime);
-        iswalking = false;
-        StopWander();
-
     }
-
-    private float IsUorDorN(){
-        if (rotateNorUorD == 1){
-            return 0;
-        }else if (rotateNorUorD == 2){
-            return movespeed;
-        }else if (rotateNorUorD == 3){
-            return movespeed * -1;
-        }
-        return 0;
-    }
-
 }

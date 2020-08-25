@@ -5,7 +5,7 @@ using UnityEngine.Experimental.Rendering.Universal;
 
 public class PlayerController : MonoBehaviour
 {
-    private float speed = 15f;
+    private float speed = 5f;
     private const float speedPenalty = 0.5f;
     private const float speedBonus = 1.5f;
     private float movingPenalty = 1;
@@ -20,7 +20,6 @@ public class PlayerController : MonoBehaviour
     public float progress = 0;
 
     public float score = 0;
-
     public const float maxProgress = 100;
 
     // Start is called before the first frame update
@@ -31,12 +30,14 @@ public class PlayerController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         SetSpeed();
-        Vector3 destination = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        Vector3 newPosition = Vector3.MoveTowards(new Vector3(transform.position.x, transform.position.y,0), destination, Time.fixedDeltaTime * speed * movingPenalty);
-        rb.MovePosition(newPosition);
+        float x = Input.GetAxis("Horizontal");
+        float y = Input.GetAxis("Vertical");
+        gameObject.GetComponent<SpriteRenderer>().flipX = x > 0 ? true : false;
+        transform.Translate(Vector2.up * (speed * Time.deltaTime * y * movingPenalty));
+        transform.Translate(Vector2.right * (speed * Time.deltaTime * x * movingPenalty));
 
         if(hunger <= 0){
             Destroy(gameObject);

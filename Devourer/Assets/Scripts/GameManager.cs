@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
     public GameObject bomb;
     public List<GameObject> arrayOfItems;
 
+    public Transform[] arrayOfSpawnPoint;
+
     // Start is called before the first frame update
     private void Awake()
     {
@@ -18,7 +20,6 @@ public class GameManager : MonoBehaviour
     }
     void Start()
     {
-        
         InvokeRepeating("SpawnMonsters", 2f, 1f);
         InvokeRepeating("SpawnItems", 2f, 3f);
 
@@ -30,14 +31,12 @@ public class GameManager : MonoBehaviour
     }
     void SpawnMonsters()
     {
-        Vector3 spawnPosition = new Vector3 (Random.Range(-13, 14),Random.Range(-8, 9), 0);
-        Instantiate(arrayOfMonsters[Random.Range(0, arrayOfMonsters.Count)], spawnPosition, Quaternion.identity);
+        Instantiate(arrayOfMonsters[Random.Range(0, arrayOfMonsters.Count)], arrayOfSpawnPoint[Random.Range(0, arrayOfSpawnPoint.Length)].position, Quaternion.identity);
     }
 
     void SpawnItems()
     {
-        Vector3 spawnPosition = new Vector3 (Random.Range(-13, 14),Random.Range(-8, 9), 0);
-        Instantiate(arrayOfItems[Random.Range(0, arrayOfItems.Count)], spawnPosition, Quaternion.identity);
+        Instantiate(arrayOfItems[Random.Range(0, arrayOfItems.Count)], arrayOfSpawnPoint[Random.Range(0, arrayOfSpawnPoint.Length)].position, Quaternion.identity);
     }
 
     public void AddMonster(int level){
