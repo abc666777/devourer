@@ -14,18 +14,15 @@ public class Ai_movement : MonoBehaviour
     private int upDirection;
 
     // Start is called before the first frame update
-    void Start()
-    {
+    void Awake(){
         if(transform.position.x > 0) isLeftorRight = -1;
         else if(transform.position.x < 0) isLeftorRight = 1;
         upDirection = arrayOfUpDirection[Random.Range(0,arrayOfUpDirection.Length)];
         movespeed = Random.Range(1,6);
         wander = StartCoroutine(Wander());
     }
-
     // Update is called once per frame
-    void FixedUpdate(){
-        gameObject.GetComponent<SpriteRenderer>().flipX = isLeftorRight > 0 ? true : false; 
+    void Update(){
         transform.position += new Vector3(movespeed * Time.deltaTime * isLeftorRight, upDirection * Time.deltaTime,0);
     }
 
@@ -40,6 +37,8 @@ public class Ai_movement : MonoBehaviour
     IEnumerator Wander(){
         while(true){
             isLeftorRight = arrayOfLeftRight[Random.Range(0,arrayOfLeftRight.Length)];
+            Vector3 absVector = transform.localScale.x < 0 ? Vector3.Scale(transform.localScale, new Vector3(-1, 1, 0)) : transform.localScale;
+            gameObject.transform.localScale = isLeftorRight > 0 ? Vector3.Scale(new Vector3(-1, 1, 0), absVector) : absVector;
             upDirection = arrayOfUpDirection[Random.Range(0,arrayOfUpDirection.Length)];
             yield return new WaitForSeconds(Random.Range(1,10));
         }

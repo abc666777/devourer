@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
     public List<GameObject> arrayOfMonsters;
     public GameObject[] monsterPrefabs;
+    public Transform[] arrayOfBombSpawnPoint;
 
     public GameObject bomb;
     public List<GameObject> arrayOfItems;
@@ -43,7 +44,11 @@ public class GameManager : MonoBehaviour
         arrayOfMonsters.Add(monsterPrefabs[level]);
     }
 
+    public void SpawnBomb(){
+        Instantiate(bomb, arrayOfBombSpawnPoint[Random.Range(0, arrayOfBombSpawnPoint.Length)].position, Quaternion.identity);
+    }
+
     public void AddBomb(){
-        arrayOfItems.Add(bomb);
+        InvokeRepeating("SpawnBomb", 0f, 3f);
     }
 }

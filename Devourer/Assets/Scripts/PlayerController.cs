@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     public bool isSlow = false;
     public bool isFast = false;
     Rigidbody2D rb;
+    public Rigidbody2D lightRb;
     public int level = 1;
 
 
@@ -22,11 +23,16 @@ public class PlayerController : MonoBehaviour
     public float score = 0;
     public const float maxProgress = 100;
 
+    private float faceDirection;
+
+    
+
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         InvokeRepeating("HungerTimer", 1f, 1f);
+        
     }
 
     // Update is called once per frame
@@ -35,10 +41,11 @@ public class PlayerController : MonoBehaviour
         SetSpeed();
         float x = Input.GetAxis("Horizontal");
         float y = Input.GetAxis("Vertical");
-        gameObject.GetComponent<SpriteRenderer>().flipX = x > 0 ? true : false;
+        if(x != 0) faceDirection = x;
+        Vector3 absVector = transform.localScale.x < 0 ? Vector3.Scale(transform.localScale, new Vector3(-1, 1, 0)) : transform.localScale;
+        gameObject.transform.localScale = faceDirection > 0 ? Vector3.Scale(new Vector3(-1, 1, 0), absVector) : absVector;
         transform.Translate(Vector2.up * (speed * Time.deltaTime * y * movingPenalty));
         transform.Translate(Vector2.right * (speed * Time.deltaTime * x * movingPenalty));
-
         if(hunger <= 0){
             Destroy(gameObject);
         }
@@ -61,46 +68,28 @@ public class PlayerController : MonoBehaviour
         {
             level = 2;
             UIManager.instance.ActivateMilestoneLayout(level);
-            StopLevelingUp();
-            levelingUp = StartCoroutine(LevelingUp(new Vector3(2,2,0),5f));
+            transform.localScale = new Vector3(2,2,0);
+            light.pointLightOuterRadius = 10f;
             GameManager.instance.AddMonster(2);
         }
         else if (progress >= 66 && level < 3)
         {
             level = 3;
             UIManager.instance.ActivateMilestoneLayout(level);
-            StopLevelingUp();
-            levelingUp = StartCoroutine(LevelingUp(new Vector3(3,3,0),7f));
+            transform.localScale = new Vector3(3,3,0);
+            light.pointLightOuterRadius = 15f;
             GameManager.instance.AddMonster(3);
             GameManager.instance.AddBomb();
+            
         }
 
         if(progress > 100) progress = 100;
  
     }
-    Coroutine levelingUp = null;
-    bool isLevelingUp {get {return levelingUp != null;}}
-
-    IEnumerator LevelingUp(Vector3 newScale, float newLightRadius){
-        while(transform.localScale != newScale && light.pointLightOuterRadius != newLightRadius){
-            transform.localScale = Vector3.MoveTowards(transform.localScale, newScale, 1f * Time.deltaTime);
-            light.pointLightOuterRadius = Mathf.MoveTowards(light.pointLightOuterRadius, newLightRadius, 1f * Time.deltaTime);
-            yield return new WaitForEndOfFrame();
-        }
-        StopLevelingUp();
-    }
-
     void HungerTimer(){
         if(gameObject) hunger -= 1;
         
         if(hunger > 100) hunger = 100;
-    }
-
-    void StopLevelingUp(){
-        if(isLevelingUp){
-            StopCoroutine(levelingUp);
-        }
-        levelingUp = null;
     }
     
 }

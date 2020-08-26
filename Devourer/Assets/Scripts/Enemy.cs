@@ -34,6 +34,12 @@ public class Enemy : MonoBehaviour
             }
         }
 
+        if(col.gameObject.name == "Player"){
+            if (player.level < level && player){
+                Destroy(player.gameObject);
+            }
+        }
+
         if(col.gameObject.name.Contains("Bound")){
             Destroy(gameObject);
         }
