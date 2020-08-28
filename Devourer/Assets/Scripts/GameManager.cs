@@ -7,9 +7,8 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
     public List<GameObject> arrayOfMonsters;
     public GameObject[] monsterPrefabs;
-    public Transform[] arrayOfBombSpawnPoint;
-
-    public GameObject bomb;
+    public GameObject warningSign;
+    //public GameObject bomb;
     public List<GameObject> arrayOfItems;
 
     public Transform[] arrayOfSpawnPoint;
@@ -27,9 +26,7 @@ public class GameManager : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-    }
+
     void SpawnMonsters()
     {
         Instantiate(arrayOfMonsters[Random.Range(0, arrayOfMonsters.Count)], arrayOfSpawnPoint[Random.Range(0, arrayOfSpawnPoint.Length)].position, Quaternion.identity);
@@ -44,11 +41,12 @@ public class GameManager : MonoBehaviour
         arrayOfMonsters.Add(monsterPrefabs[level]);
     }
 
-    public void SpawnBomb(){
-        Instantiate(bomb, arrayOfBombSpawnPoint[Random.Range(0, arrayOfBombSpawnPoint.Length)].position, Quaternion.identity);
+    public void SpawnWarning(){
+        Vector3 randomPos = new Vector3(Random.Range(-18f, 18f), Random.Range(-8f, 8f), 0);
+        Instantiate(warningSign, randomPos, Quaternion.identity);
     }
 
     public void AddBomb(){
-        InvokeRepeating("SpawnBomb", 0f, 3f);
+        InvokeRepeating("SpawnWarning", 0f, 5f);
     }
 }

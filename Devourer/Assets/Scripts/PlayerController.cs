@@ -17,6 +17,8 @@ public class PlayerController : MonoBehaviour
 
 
     public Light2D light;
+
+    public Light2D circleLight;
     public float hunger = 100;
     public float progress = 0;
 
@@ -70,6 +72,7 @@ public class PlayerController : MonoBehaviour
             UIManager.instance.ActivateMilestoneLayout(level);
             transform.localScale = new Vector3(2,2,0);
             light.pointLightOuterRadius = 10f;
+            circleLight.pointLightOuterRadius = 2;
             GameManager.instance.AddMonster(2);
         }
         else if (progress >= 66 && level < 3)
@@ -78,6 +81,7 @@ public class PlayerController : MonoBehaviour
             UIManager.instance.ActivateMilestoneLayout(level);
             transform.localScale = new Vector3(3,3,0);
             light.pointLightOuterRadius = 15f;
+            circleLight.pointLightOuterRadius = 3;
             GameManager.instance.AddMonster(3);
             GameManager.instance.AddBomb();
             
