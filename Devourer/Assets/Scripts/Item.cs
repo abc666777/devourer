@@ -4,34 +4,30 @@ using UnityEngine;
 
 public class Item : MonoBehaviour
 {
-    public enum EFFECT_TYPE { slow, fast }
+    public enum EFFECT_TYPE { slow, fast, vision, shield }
     public EFFECT_TYPE type;
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.name == "EatCollider")
+        if (col.gameObject.name == GlobalReferences.player)
         {
 
             switch (type)
             {
                 case EFFECT_TYPE.slow:
-                    DebuffManager.instance.SetDebuff(5f);
+                    DebuffManager.instance.SetSlowBuff(5f);
                     break;
                 case EFFECT_TYPE.fast:
-                    DebuffManager.instance.SetBuff(5f);
+                    DebuffManager.instance.SetFastBuff(5f);
                     break;
             }
             Destroy(gameObject);
         }
 
-        if(col.gameObject.name.Contains("Bound")){
+        if (col.gameObject.name.Contains(GlobalReferences.bound))
+        {
             Destroy(gameObject);
         }
-    }
-
-    void Innitialize(EFFECT_TYPE type)
-    {
-        this.type = type;
     }
 }
 // Start is called before the first frame update

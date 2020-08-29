@@ -6,23 +6,26 @@ public class BombTimer : MonoBehaviour
 {
     // Start is called before the first frame update
     PlayerController player;
-    void Awake() {
+    void Awake()
+    {
         Destroy(gameObject, 5f);
     }
-    void Update() {
+    void Update()
+    {
     }
     void OnTriggerEnter2D(Collider2D col)
     {
 
-        if (col.gameObject.name == "EatCollider" || col.gameObject.name == "Player")
+        if (col.gameObject.name == GlobalReferences.player)
         {
-            if(GameObject.Find("Player") != null)
-                player = GameObject.Find("Player").GetComponent<PlayerController>();
+            if (GameObject.Find(GlobalReferences.player) != null)
+                player = GameObject.Find(GlobalReferences.player).GetComponent<PlayerController>();
             Destroy(player.gameObject);
             Destroy(gameObject);
         }
 
-        if(col.gameObject.name.Contains("Bound")){
+        if (col.gameObject.name.Contains(GlobalReferences.bound))
+        {
             Destroy(gameObject);
         }
     }

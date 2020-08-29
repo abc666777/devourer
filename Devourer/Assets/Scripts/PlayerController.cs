@@ -9,9 +9,8 @@ public class PlayerController : MonoBehaviour
     private const float speedPenalty = 0.5f;
     private const float speedBonus = 1.5f;
     private float movingPenalty = 1;
-    public bool isSlow = false;
-    public bool isFast = false;
     Rigidbody2D rb;
+    SpriteRenderer sprite;
     public Rigidbody2D lightRb;
     public int level = 1;
 
@@ -27,73 +26,87 @@ public class PlayerController : MonoBehaviour
 
     private float faceDirection;
 
-    
+    public class Status
+    {
+        public bool isSlow = false;
+        public bool isFast = false;
+        public bool isImmune = false;
+        public bool hasVision = false;
+        public bool hasBonus = false;
+    }
+
+
+    [HideInInspector] public Status playerStatus;
 
     // Start is called before the first frame update
     void Start()
     {
+        playerStatus = new Status();
         rb = GetComponent<Rigidbody2D>();
+        sprite = GetComponent<SpriteRenderer>();
         InvokeRepeating("HungerTimer", 1f, 1f);
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
         SetSpeed();
-        float x = Input.GetAxis("Horizontal");
-        float y = Input.GetAxis("Vertical");
-        if(x != 0) faceDirection = x;
-        Vector3 absVector = transform.localScale.x < 0 ? Vector3.Scale(transform.localScale, new Vector3(-1, 1, 0)) : transform.localScale;
-        gameObject.transform.localScale = faceDirection > 0 ? Vector3.Scale(new Vector3(-1, 1, 0), absVector) : absVector;
+        float x = Input.GetAxis(GlobalReferences.InputReferences.InputHorizontal);
+        float y = Input.GetAxis(GlobalReferences.InputReferences.InputVerticle);
+        if (x != 0) faceDirection = x;
+        sprite.flipX = faceDirection > 0 ? true : false;
         transform.Translate(Vector2.up * (speed * Time.deltaTime * y * movingPenalty));
         transform.Translate(Vector2.right * (speed * Time.deltaTime * x * movingPenalty));
-        if(hunger <= 0){
+        if (hunger <= 0)
+        {
             Destroy(gameObject);
         }
     }
 
     void SetSpeed()
     {
-        if (isSlow && isFast) movingPenalty = (speedBonus - speedPenalty);
-        else if (isSlow) movingPenalty = (speedPenalty);
-        else if (isFast) movingPenalty = (speedBonus);
+        if (playerStatus.isSlow && playerStatus.isFast) movingPenalty = (speedBonus - speedPenalty);
+        else if (playerStatus.isSlow) movingPenalty = (speedPenalty);
+        else if (playerStatus.isFast) movingPenalty = (speedBonus);
         else movingPenalty = 1;
     }
 
     public void LevelUp()
     {
-        if(progress < 33){
+        if (progress < 33)
+        {
             return;
         }
         if (progress >= 33 && progress < 66 && level < 2)
         {
             level = 2;
             UIManager.instance.ActivateMilestoneLayout(level);
-            transform.localScale = new Vector3(2,2,0);
-            light.pointLightOuterRadius = 10f;
-            circleLight.pointLightOuterRadius = 2;
+            transform.localScale = new Vector3(1.5f, 1.5f, 0);
+            light.pointLightOuterRadius = 8f;
+            circleLight.pointLightOuterRadius = 1.5f;
             GameManager.instance.AddMonster(2);
         }
         else if (progress >= 66 && level < 3)
         {
             level = 3;
             UIManager.instance.ActivateMilestoneLayout(level);
-            transform.localScale = new Vector3(3,3,0);
-            light.pointLightOuterRadius = 15f;
-            circleLight.pointLightOuterRadius = 3;
+            transform.localScale = new Vector3(2f, 2f, 0);
+            light.pointLightOuterRadius = 12f;
+            circleLight.pointLightOuterRadius = 2;
             GameManager.instance.AddMonster(3);
             GameManager.instance.AddBomb();
-            
+
         }
 
-        if(progress > 100) progress = 100;
- 
+        if (progress > 100) progress = 100;
+
     }
-    void HungerTimer(){
-        if(gameObject) hunger -= 1;
-        
-        if(hunger > 100) hunger = 100;
+    void HungerTimer()
+    {
+        if (gameObject) hunger -= 1;
+
+        if (hunger > 100) hunger = 100;
     }
-    
+
 }

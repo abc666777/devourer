@@ -1,66 +1,103 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor.UI;
 
 public class DebuffManager : MonoBehaviour
 {
     public static DebuffManager instance;
-    PlayerController player;
+    private PlayerController player;
+
+    public GameObject fastUI;
+    public GameObject slowUI;
+    public GameObject shieldUI;
+    public GameObject visionUI;
+    public GameObject bonusUI;
+
     // Start is called before the first frame update
     private void Awake()
     {
-        player = GameObject.Find("Player").GetComponent<PlayerController>();
+        player = GameObject.Find(GlobalReferences.player).GetComponent<PlayerController>();
         instance = this;
     }
-    public void SetBuff(float duration)
+    #region set buff
+    public void SetFastBuff(float duration)
     {
         if (isFast)
         {
-            DispelBuff();
+            DispelFastBuff();
         }
-        settingBuff = GameManager.instance.StartCoroutine(SettingBuff(duration));
+        settingFastBuff = GameManager.instance.StartCoroutine(SettingFastBuff(duration));
 
     }
 
-    public void SetDebuff(float duration)
+    public void SetSlowBuff(float duration)
     {
         if (isSlow)
         {
-            DispelDebuff();
+            DispelSlowBuff();
         }
-        settingDebuff = GameManager.instance.StartCoroutine(SettingDebuff(duration));
+        settingSlowBuff = GameManager.instance.StartCoroutine(SettingSlowBuff(duration));
     }
 
-    bool isFast { get { return settingBuff != null; } }
-    bool isSlow { get { return settingDebuff != null; } }
-    Coroutine settingBuff = null;
-    Coroutine settingDebuff = null;
-    IEnumerator SettingBuff(float time)
+    public void SetShieldBuff(float duration)
     {
-        player.isFast = true;
+        DispelShieldBuff();
+
+        settingShieldBuff = GameManager.instance.StartCoroutine(SettingShieldBuff(duration));
+    }
+    #endregion
+    #region getter/setter
+    bool isFast { get { return settingFastBuff != null; } }
+    bool isSlow { get { return settingSlowBuff != null; } }
+    bool isShield { get { return settingShieldBuff != null; } }
+    #endregion
+    #region coroutines
+    Coroutine settingFastBuff = null;
+    Coroutine settingSlowBuff = null;
+    Coroutine settingShieldBuff = null;
+    #endregion
+    #region IEnumerator
+    IEnumerator SettingFastBuff(float time)
+    {
+        player.playerStatus.isFast = true;
         yield return new WaitForSeconds(time);
-        player.isFast = false;
-        DispelBuff();
+        player.playerStatus.isFast = false;
+        DispelFastBuff();
     }
 
-    IEnumerator SettingDebuff(float time)
+    IEnumerator SettingSlowBuff(float time)
     {
-        player.isSlow = true;
+        player.playerStatus.isSlow = true;
         yield return new WaitForSeconds(time);
-        player.isSlow = false;
-        GameManager.instance.StopCoroutine(settingDebuff);
-        DispelDebuff();
+        player.playerStatus.isSlow = false;
+        DispelSlowBuff();
     }
 
-    void DispelBuff()
+    IEnumerator SettingShieldBuff(float time)
     {
-        GameManager.instance.StopCoroutine(settingBuff);
-        settingBuff = null;
+        player.playerStatus.isImmune = true;
+        yield return new WaitForSeconds(time);
+        player.playerStatus.isImmune = false;
+        DispelShieldBuff();
+    }
+    #endregion
+    #region dispel
+    void DispelFastBuff()
+    {
+        GameManager.instance.StopCoroutine(settingFastBuff);
+        settingFastBuff = null;
     }
 
-    void DispelDebuff()
+    void DispelSlowBuff()
     {
-        GameManager.instance.StopCoroutine(settingDebuff);
-        settingDebuff = null;
+        GameManager.instance.StopCoroutine(settingSlowBuff);
+        settingSlowBuff = null;
     }
+    void DispelShieldBuff()
+    {
+        GameManager.instance.StopCoroutine(settingShieldBuff);
+        settingShieldBuff = null;
+    }
+    #endregion
 }
