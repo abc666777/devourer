@@ -15,7 +15,7 @@ public class UIManager : MonoBehaviour
     public Image milestone2;
     public Image milestone3;
 
-    PlayerController player;
+    private PlayerController player;
     // Start is called before the first frame update
     void Awake() {
         instance = this;
