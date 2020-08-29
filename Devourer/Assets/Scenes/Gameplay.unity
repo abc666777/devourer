@@ -2259,8 +2259,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 823847e13b2da9946baace3b385ffcf0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slowUI: {fileID: 0}
   fastUI: {fileID: 0}
+  slowUI: {fileID: 0}
+  shieldUI: {fileID: 0}
+  visionUI: {fileID: 0}
+  bonusUI: {fileID: 0}
 --- !u!4 &1274776853
 Transform:
   m_ObjectHideFlags: 0

@@ -104,7 +104,7 @@ public class PlayerController : MonoBehaviour
     }
     void HungerTimer()
     {
-        if (gameObject) hunger -= 1;
+        if (gameObject) hunger -= 1 * level;
 
         if (hunger > 100) hunger = 100;
     }

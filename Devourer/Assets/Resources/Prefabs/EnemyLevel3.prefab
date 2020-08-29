@@ -125,6 +125,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: 3
+  value: 0
+  score: 10
 --- !u!114 &2210805100693520525
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -126,6 +126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   level: 1
   value: 2.5
+  score: 1
 --- !u!114 &6968149179027418119
 MonoBehaviour:
   m_ObjectHideFlags: 0

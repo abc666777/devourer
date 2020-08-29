@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Item : MonoBehaviour
 {
-    public enum EFFECT_TYPE { slow, fast, vision, shield }
+    public enum EFFECT_TYPE { slow, fast, vision, shield, bonus }
     public EFFECT_TYPE type;
 
     void OnTriggerEnter2D(Collider2D col)

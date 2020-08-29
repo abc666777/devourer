@@ -6,6 +6,7 @@ public class Enemy : MonoBehaviour
 {
     public int level;
     public float value;
+    public float score;
     PlayerController player;
     private void Awake()
     {
@@ -21,8 +22,8 @@ public class Enemy : MonoBehaviour
         {
             if (player.level >= level && player)
             {
-                player.score += (value / player.level);
-                player.hunger += level;
+                player.score += score;
+                player.hunger += 5 * level;
                 player.progress += (value / player.level);
                 player.LevelUp();
                 UIManager.instance.SetScore();
