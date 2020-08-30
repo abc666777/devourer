@@ -8,17 +8,25 @@ public class UIManager : MonoBehaviour
 {
     public static UIManager instance;
     public Image hungerBar;
-
     public Image progressBar;
     public TextMeshProUGUI scoreText;
-
     public Image milestone2;
     public Image milestone3;
+<<<<<<< Updated upstream
 
     private PlayerController player;
+=======
+    private PlayerController player;
+    public GameObject iconPrefabs;
+    public GameObject root;
+    private List<GameObject> buffs = new List<GameObject>;
+    private var buffSprites;
+>>>>>>> Stashed changes
     // Start is called before the first frame update
-    void Awake() {
+    void Awake()
+    {
         instance = this;
+        buffSprites = Resources.LoadAll("UI/Buff", typeof(Sprite)).Cast<Sprite>();
         player = GameObject.Find("Player").GetComponent<PlayerController>();
     }
 
@@ -28,20 +36,25 @@ public class UIManager : MonoBehaviour
         SetHungerBar();
     }
 
-    void SetHungerBar(){
+    void SetHungerBar()
+    {
         hungerBar.fillAmount = player.hunger / 100;
     }
 
-    public void SetScore(){
+    public void SetScore()
+    {
         scoreText.text = "Score : " + player.score;
     }
 
-    public void SetProgressBar(){
+    public void SetProgressBar()
+    {
         progressBar.fillAmount = player.progress / 100;
     }
 
-    public void ActivateMilestoneLayout(int level){
-        switch(level){
+    public void ActivateMilestoneLayout(int level)
+    {
+        switch (level)
+        {
             case 2:
                 milestone2.color = new Color(milestone2.color.r, milestone2.color.g, milestone2.color.b, 1);
                 break;
@@ -51,5 +64,10 @@ public class UIManager : MonoBehaviour
             default:
                 break;
         }
+    }
+
+    public void AddBuff(string buffName)
+    {
+        buff
     }
 }
