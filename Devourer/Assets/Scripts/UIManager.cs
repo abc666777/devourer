@@ -70,11 +70,11 @@ public class UIManager : MonoBehaviour
         ob = CurrentlyDisplayBuffIcons.Find(x => x.name == newIcon.name);
         if (ob != null)
         {
-            CurrentlyDisplayBuffIcons.Remove(ob);
+            //CurrentlyDisplayBuffIcons.Remove(ob);
             Destroy(ob);
         }
         CurrentlyDisplayBuffIcons.Add(newIcon);
-        //ob = null;
+        ob = null;
     }
 
     public void NewBuffIcon(string iconName)
