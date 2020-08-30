@@ -12,22 +12,14 @@ public class UIManager : MonoBehaviour
     public TextMeshProUGUI scoreText;
     public Image milestone2;
     public Image milestone3;
-<<<<<<< Updated upstream
-
-    private PlayerController player;
-=======
     private PlayerController player;
     public GameObject iconPrefabs;
     public GameObject root;
-    private List<GameObject> buffs = new List<GameObject>;
-    private var buffSprites;
->>>>>>> Stashed changes
+    private List<GameObject> buffs = new List<GameObject>();
     // Start is called before the first frame update
     void Awake()
     {
-        instance = this;
-        buffSprites = Resources.LoadAll("UI/Buff", typeof(Sprite)).Cast<Sprite>();
-        player = GameObject.Find("Player").GetComponent<PlayerController>();
+
     }
 
     // Update is called once per frame
@@ -68,6 +60,6 @@ public class UIManager : MonoBehaviour
 
     public void AddBuff(string buffName)
     {
-        buff
+        //buff
     }
 }
