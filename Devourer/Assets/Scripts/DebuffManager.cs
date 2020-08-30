@@ -9,12 +9,6 @@ public class DebuffManager : MonoBehaviour
     public static DebuffManager instance;
     private PlayerController player;
     private Light2D visionLight;
-    public GameObject fastUI;
-    public GameObject slowUI;
-    public GameObject shieldUI;
-    public GameObject visionUI;
-    public GameObject bonusUI;
-
     // Start is called before the first frame update
     private void Awake()
     {
@@ -25,11 +19,12 @@ public class DebuffManager : MonoBehaviour
     #region set buff
     public void SetFastBuff(float duration)
     {
-        
+
         if (isFast)
         {
             DispelFastBuff();
         }
+        UIManager.instance.NewBuffIcon(GlobalReferences.UIReferences.fastIconBuff);
         settingFastBuff = GameManager.instance.StartCoroutine(SettingFastBuff(duration));
 
     }
@@ -40,46 +35,52 @@ public class DebuffManager : MonoBehaviour
         {
             DispelSlowBuff();
         }
+        UIManager.instance.NewBuffIcon(GlobalReferences.UIReferences.slowIconBuff);
         settingSlowBuff = GameManager.instance.StartCoroutine(SettingSlowBuff(duration));
     }
 
     public void SetShieldBuff(float duration)
     {
-        if(isShield)
+        if (isShield)
         {
             DispelShieldBuff();
         }
+        UIManager.instance.NewBuffIcon(GlobalReferences.UIReferences.shieldIconBuff);
         settingShieldBuff = GameManager.instance.StartCoroutine(SettingShieldBuff(duration));
     }
 
     public void SetVisionBuff(float duration)
     {
-        if(hasVision)
+        if (hasVision)
         {
             DispelVisionBuff();
         }
+        UIManager.instance.NewBuffIcon(GlobalReferences.UIReferences.visionIconBuff);
         settingVisionBuff = GameManager.instance.StartCoroutine(SettingVisionBuff(duration));
     }
     public void SetBonusBuff(float duration)
     {
-        if(hasBonus)
+        if (hasBonus)
         {
             DispelBonusBuff();
         }
+        UIManager.instance.NewBuffIcon(GlobalReferences.UIReferences.bonusIconBuff);
         settingBonusBuff = GameManager.instance.StartCoroutine(SettingBonusBuff(duration));
     }
 
-    public void SetHungerBuff(float duration){
+    public void SetHungerBuff(float duration)
+    {
         player.LevelUp();
         UIManager.instance.SetScore();
         UIManager.instance.SetProgressBar();
         player.score += (1 * (player.playerStatus.hasBonus ? 2 : 1));
         player.hunger += 15;
         player.progress += (1 / player.level);
-        if(isHungry)
+        if (isHungry)
         {
             DispelHungerBuff();
         }
+        UIManager.instance.NewBuffIcon(GlobalReferences.UIReferences.hungerIconBuff);
         settingHungerBuff = GameManager.instance.StartCoroutine(SettingHungerBuff(duration));
     }
     #endregion
@@ -88,8 +89,8 @@ public class DebuffManager : MonoBehaviour
     bool isSlow { get { return settingSlowBuff != null; } }
     bool isShield { get { return settingShieldBuff != null; } }
     bool hasVision { get { return settingVisionBuff != null; } }
-    bool hasBonus { get {return settingBonusBuff != null;} }
-    bool isHungry {get {return settingHungerBuff != null;}}
+    bool hasBonus { get { return settingBonusBuff != null; } }
+    bool isHungry { get { return settingHungerBuff != null; } }
     #endregion
     #region coroutines
     Coroutine settingFastBuff = null;
@@ -128,7 +129,8 @@ public class DebuffManager : MonoBehaviour
     {
         float t = 0;
         visionLight.intensity = 1;
-        while(t < 1){
+        while (t < 1)
+        {
             t += Time.deltaTime / time;
             visionLight.intensity = Mathf.Lerp(1, 0, t);
             yield return null;
@@ -186,7 +188,7 @@ public class DebuffManager : MonoBehaviour
         GameManager.instance.StopCoroutine(settingBonusBuff);
         settingBonusBuff = null;
     }
-    
+
     public void DispelHungerBuff()
     {
         player.playerStatus.isHungry = false;

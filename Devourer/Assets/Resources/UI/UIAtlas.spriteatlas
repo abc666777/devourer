@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UIAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 256
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: ba52c15d3f284f048a5617eec95eec91, type: 3}
+    totalSpriteSurfaceArea: 24576
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 72effe727d773554a9e9892662b82f76, type: 3}
+  - {fileID: 21300000, guid: 39dfea931401466479b9c4fe47431300, type: 3}
+  - {fileID: 21300000, guid: d90214b7462da674083218ed51d294e9, type: 3}
+  - {fileID: 21300000, guid: 1300c618959ae5a438a2fb67b53a489e, type: 3}
+  - {fileID: 21300000, guid: b814a80c2d8a5dd43ab6d83dd76a49c0, type: 3}
+  - {fileID: 21300000, guid: 3d1141dfb4084d7458e2eef7b2ef81f9, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - hungerBuff_Icon
+  - bonusBuff_Icon
+  - slowBuff_Icon
+  - fastBuff_Icon
+  - shieldBuff_Icon
+  - visionBuff_Icon
+  m_Tag: UIAtlas
+  m_IsVariant: 0
