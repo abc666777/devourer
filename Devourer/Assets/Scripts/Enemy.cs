@@ -34,12 +34,13 @@ public class Enemy : MonoBehaviour
             }
             else
             {
-                if(player.playerStatus.isImmune){
+                if (player.playerStatus.isImmune)
+                {
                     DebuffManager.instance.DispelShieldBuff();
                     Destroy(gameObject);
                     return;
                 }
-                else 
+                else
                     Destroy(player.gameObject);
             }
         }

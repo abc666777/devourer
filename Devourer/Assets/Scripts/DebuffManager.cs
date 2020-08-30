@@ -71,11 +71,11 @@ public class DebuffManager : MonoBehaviour
     public void SetHungerBuff(float duration)
     {
         player.LevelUp();
-        UIManager.instance.SetScore();
-        UIManager.instance.SetProgressBar();
         player.score += (1 * (player.playerStatus.hasBonus ? 2 : 1));
         player.hunger += 15;
         player.progress += (1 / player.level);
+        UIManager.instance.SetScore();
+        UIManager.instance.SetProgressBar();
         if (isHungry)
         {
             DispelHungerBuff();

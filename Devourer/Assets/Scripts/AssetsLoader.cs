@@ -14,16 +14,6 @@ public class AssetsLoader : MonoBehaviour
         else if (instance != null) Destroy(gameObject);
 
     }
-    public dynamic GetAssets(GlobalReferences.TYPEOF_ASSETS type, string assetsName)
-    {
-        switch (type)
-        {
-            case GlobalReferences.TYPEOF_ASSETS.buff:
-                return GetBuffSprite(assetsName);
-        }
-        return null;
-    }
-
     public Sprite GetBuffSprite(string name)
     {
         return UISprite.GetSprite(name);

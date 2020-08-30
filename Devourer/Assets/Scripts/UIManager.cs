@@ -46,9 +46,11 @@ public class UIManager : MonoBehaviour
         progressBar.fillAmount = player.progress / 100;
     }
 
-    private List<GameObject> CurrentlyDisplayBuffIcons;
+    [HideInInspector] public List<GameObject> CurrentlyDisplayBuffIcons;
     [SerializeField] private GameObject root;
     [SerializeField] private GameObject iconPrefabs;
+
+    private GameObject ob;
     public void ActivateMilestoneLayout(int level)
     {
         switch (level)
@@ -65,24 +67,22 @@ public class UIManager : MonoBehaviour
     }
     public void AddBuffIconToLayout(GameObject newIcon)
     {
-        foreach (GameObject icon in CurrentlyDisplayBuffIcons)
+        ob = CurrentlyDisplayBuffIcons.Find(x => x.name == newIcon.name);
+        if (ob != null)
         {
-            if (icon.name == newIcon.name)
-            {
-                CurrentlyDisplayBuffIcons.Remove(icon);
-                Destroy(icon);
-                return;
-            }
+            CurrentlyDisplayBuffIcons.Remove(ob);
+            Destroy(ob);
         }
         CurrentlyDisplayBuffIcons.Add(newIcon);
+        //ob = null;
     }
 
     public void NewBuffIcon(string iconName)
     {
         GameObject ob = Instantiate(iconPrefabs, root.transform);
-        ob.SetActive(true);
         ob.name = iconName;
-        ob.GetComponent<Image>().sprite = AssetsLoader.instance.GetAssets(GlobalReferences.TYPEOF_ASSETS.buff, iconName);
+        ob.GetComponent<Image>().sprite = AssetsLoader.instance.GetBuffSprite(iconName);
+        ob.SetActive(true);
         AddBuffIconToLayout(ob);
     }
 
