@@ -12,10 +12,15 @@ public class UIManager : MonoBehaviour
     public TextMeshProUGUI scoreText;
     public Image milestone2;
     public Image milestone3;
+<<<<<<< HEAD
     private PlayerController player;
     public GameObject iconPrefabs;
     public GameObject root;
     private List<GameObject> buffs = new List<GameObject>();
+=======
+
+    PlayerController player;
+>>>>>>> parent of ea0b2f5... add new buff/debuff
     // Start is called before the first frame update
     void Awake()
     {

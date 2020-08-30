@@ -7,8 +7,7 @@ public class Enemy : MonoBehaviour
     public int level;
     public float value;
     public float score;
-    private PlayerController player;
-
+    PlayerController player;
     private void Awake()
     {
         if (GameObject.Find(GlobalReferences.player) != null)
@@ -23,24 +22,17 @@ public class Enemy : MonoBehaviour
         {
             if (player.level >= level && player)
             {
-                player.score += (score * (player.playerStatus.hasBonus ? 2 : 1));
+                player.score += score;
                 player.hunger += 5 * level;
                 player.progress += (value / player.level);
                 player.LevelUp();
                 UIManager.instance.SetScore();
                 UIManager.instance.SetProgressBar();
                 Destroy(gameObject);
-                return;
             }
             else
             {
-                if(player.playerStatus.isImmune){
-                    DebuffManager.instance.DispelShieldBuff();
-                    Destroy(gameObject);
-                    return;
-                }
-                else 
-                    Destroy(player.gameObject);
+                if (player) Destroy(player.gameObject);
             }
         }
 

@@ -24,7 +24,7 @@ public class GameManager : MonoBehaviour
     }
     void Start()
     {
-        InvokeRepeating("SpawnMonsters", 0f, 1f);
+        InvokeRepeating("SpawnMonsters", 2f, 1f);
         InvokeRepeating("SpawnItems", 2f, 3f);
 
     }

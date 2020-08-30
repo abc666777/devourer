@@ -33,7 +33,6 @@ public class PlayerController : MonoBehaviour
         public bool isImmune = false;
         public bool hasVision = false;
         public bool hasBonus = false;
-        public bool isHungry = false;
     }
 
 
@@ -46,12 +45,12 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         sprite = GetComponent<SpriteRenderer>();
         InvokeRepeating("HungerTimer", 1f, 1f);
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (hunger > 100) hunger = 100;
         SetSpeed();
         float x = Input.GetAxis(GlobalReferences.InputReferences.InputHorizontal);
         float y = Input.GetAxis(GlobalReferences.InputReferences.InputVerticle);
@@ -105,7 +104,9 @@ public class PlayerController : MonoBehaviour
     }
     void HungerTimer()
     {
-        if (gameObject) hunger -= ((level + (level - 1)) * (playerStatus.isHungry ? 2 : 1));
+        if (gameObject) hunger -= 1 * level;
+
+        if (hunger > 100) hunger = 100;
     }
 
 }
