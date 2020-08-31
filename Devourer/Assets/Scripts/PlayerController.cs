@@ -42,6 +42,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        PlayerPrefs.SetFloat("Score", score);
         playerStatus = new Status();
         rb = GetComponent<Rigidbody2D>();
         sprite = GetComponent<SpriteRenderer>();
@@ -106,6 +107,10 @@ public class PlayerController : MonoBehaviour
     void HungerTimer()
     {
         if (gameObject) hunger -= ((level + (level - 1)) * (playerStatus.isHungry ? 2 : 1));
+    }
+
+    private void OnDestroy() {
+        SceneManager.instance.LoadScene("Ending");
     }
 
 }

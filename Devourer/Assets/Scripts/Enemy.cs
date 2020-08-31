@@ -29,6 +29,7 @@ public class Enemy : MonoBehaviour
                 player.LevelUp();
                 UIManager.instance.SetScore();
                 UIManager.instance.SetProgressBar();
+                PlayerPrefs.SetFloat("Score", player.score);
                 Destroy(gameObject);
                 return;
             }
@@ -37,6 +38,7 @@ public class Enemy : MonoBehaviour
                 if (player.playerStatus.isImmune)
                 {
                     DebuffManager.instance.DispelShieldBuff();
+                    UIManager.instance.RemoveBuffIcon(GlobalReferences.UIReferences.shieldIconBuff);
                     Destroy(gameObject);
                     return;
                 }

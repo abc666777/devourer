@@ -8,12 +8,18 @@ public class AssetsLoader : MonoBehaviour
     public static AssetsLoader instance;
     [SerializeField] private SpriteAtlas UISprite;
     // Start is called before the first frame update
-    private void Awake()
-    {
-        if (instance == null) instance = this;
-        else if (instance != null) Destroy(gameObject);
+    void Awake()
+    {  
+        if(instance != null && instance != this)
+            Destroy(gameObject);
 
+        else if(instance == null){
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        UISprite = Resources.Load<SpriteAtlas>(GlobalReferences.PathReferences.UI_BuffPath + GlobalReferences.UIReferences.UIAtlas);
     }
+
     public Sprite GetBuffSprite(string name)
     {
         return UISprite.GetSprite(name);

@@ -88,14 +88,11 @@ public class UIManager : MonoBehaviour
 
     public void RemoveBuffIcon(string iconName)
     {
-        foreach (GameObject icon in CurrentlyDisplayBuffIcons)
+        GameObject _ob = CurrentlyDisplayBuffIcons.Find(x => x.name == iconName);
+        if (_ob != null)
         {
-            if (icon.name == iconName)
-            {
-                CurrentlyDisplayBuffIcons.Remove(icon);
-                Destroy(icon);
-                return;
-            }
+            //CurrentlyDisplayBuffIcons.Remove(ob);
+            Destroy(_ob);
         }
     }
 }
