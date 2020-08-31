@@ -21,6 +21,7 @@ public class GlobalReferences
     public class PathReferences
     {
         public const string UI_BuffPath = "UI/Buff/";
+        public const string BGMPath = "Audio/BGM";
     }
 
     public class UIReferences
@@ -32,6 +33,13 @@ public class GlobalReferences
         public const string bonusIconBuff = "bonusBuff_Icon";
         public const string hungerIconBuff = "hungerBuff_Icon";
         public const string visionIconBuff = "visionBuff_Icon";
+    }
+
+    public class BGMReferences
+    {
+        public const string MainMenu = "Main Menu";
+        public const string Gameplay = "Gameplay";
+        public const string Ending = "Ending";
     }
 }
 

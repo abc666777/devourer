@@ -44,6 +44,7 @@ public class Enemy : MonoBehaviour
                 }
                 else
                     Destroy(player.gameObject);
+                    AudioManager.instance.PlayBGM(AssetsLoader.instance.GetBGM(GlobalReferences.BGMReferences.Ending));
             }
         }
 

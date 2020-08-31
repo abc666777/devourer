@@ -42,6 +42,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        AudioManager.instance.PlayBGM(AssetsLoader.instance.GetBGM(GlobalReferences.BGMReferences.Gameplay));
         PlayerPrefs.SetFloat("Score", score);
         playerStatus = new Status();
         rb = GetComponent<Rigidbody2D>();

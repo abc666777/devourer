@@ -15,10 +15,7 @@ public class SceneManager : MonoBehaviour
             DontDestroyOnLoad(gameObject);
         }
     }
-
-    private void Update() {
-        Debug.Log(instance);
-    }
+    
     bool isLoading {get {return loadASync != null;}}
     Coroutine loadASync = null;
     void StopLoadScene(){
