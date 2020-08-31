@@ -9,7 +9,8 @@ public class GlobalReferences
     public const string bound = "Bound";
     public const string visionLight = "VisionLight";
     public const string canvas = "Canvas";
-    public enum TYPEOF_ASSETS { buff, sfx, music };
+    public const string highScore = "High Score";
+    public const string score = "Score";
     public class InputReferences
     {
         public const string InputHorizontal = "Horizontal";
@@ -40,6 +41,7 @@ public class GlobalReferences
         public const string MainMenu = "Main Menu";
         public const string Gameplay = "Gameplay";
         public const string Ending = "Ending";
+        public const string Setting = "Setting";
     }
 }
 

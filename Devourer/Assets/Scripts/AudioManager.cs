@@ -38,7 +38,6 @@ public class AudioManager : MonoBehaviour
     }
 
     public void PlayBGM(AudioClip song, float maxVolume = 1f, float pitch = 1f, float startingVolume = 0, bool playOnStart = true, bool loop = true){
-        Debug.Log(song);
         if(song != null){
             foreach(Song songObject in allSongs){
                 if(songObject.clip == song){

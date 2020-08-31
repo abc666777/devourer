@@ -43,7 +43,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         AudioManager.instance.PlayBGM(AssetsLoader.instance.GetBGM(GlobalReferences.BGMReferences.Gameplay));
-        PlayerPrefs.SetFloat("Score", score);
+        PlayerPrefs.SetFloat(GlobalReferences.score, score);
         playerStatus = new Status();
         rb = GetComponent<Rigidbody2D>();
         sprite = GetComponent<SpriteRenderer>();

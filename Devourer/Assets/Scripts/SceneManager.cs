@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class SceneManager : MonoBehaviour
 {
     public static SceneManager instance;
     [SerializeField] private GameObject loadScenePanel;
+    public TextMeshProUGUI highScore;
     // Start is called before the first frame update
     void Awake()
     {  
@@ -14,8 +16,14 @@ public class SceneManager : MonoBehaviour
             instance = this;
             DontDestroyOnLoad(gameObject);
         }
+
+        if(!PlayerPrefs.HasKey(GlobalReferences.highScore))
+            PlayerPrefs.SetFloat(GlobalReferences.highScore, 0f);
+
+        PlayerPrefs.Save();
+        highScore.text = "High Score: " + PlayerPrefs.GetFloat(GlobalReferences.highScore);
     }
-    
+
     bool isLoading {get {return loadASync != null;}}
     Coroutine loadASync = null;
     void StopLoadScene(){
