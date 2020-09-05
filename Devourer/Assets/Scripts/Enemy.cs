@@ -30,6 +30,7 @@ public class Enemy : MonoBehaviour
                 UIManager.instance.SetScore();
                 UIManager.instance.SetProgressBar();
                 PlayerPrefs.SetFloat("Score", player.score);
+                AudioManager.instance.PlaySFX(AssetsLoader.instance.GetSFX(GlobalReferences.SFXReferences.Eat));
                 Destroy(gameObject);
                 return;
             }
@@ -44,6 +45,7 @@ public class Enemy : MonoBehaviour
                 }
                 else
                     Destroy(player.gameObject);
+                    AudioManager.instance.PlaySFX(AssetsLoader.instance.GetSFX(GlobalReferences.SFXReferences.Eat));
                     AudioManager.instance.PlayBGM(AssetsLoader.instance.GetBGM(GlobalReferences.BGMReferences.Ending));
             }
         }

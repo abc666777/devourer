@@ -23,6 +23,7 @@ public class GlobalReferences
     {
         public const string UI_BuffPath = "UI/Buff/";
         public const string BGMPath = "Audio/BGM";
+        public const string SFXPath = "Audio/SFX";
     }
 
     public class UIReferences
@@ -42,6 +43,11 @@ public class GlobalReferences
         public const string Gameplay = "Gameplay";
         public const string Ending = "Ending";
         public const string Setting = "Setting";
+    }
+
+    public class SFXReferences{
+        public const string Eat = "Eat";
+        public const string ButtonOnClick = "Button";
     }
 }
 

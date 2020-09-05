@@ -8,6 +8,7 @@ public class AssetsLoader : MonoBehaviour
     public static AssetsLoader instance;
     [SerializeField] private SpriteAtlas UISprite;
     private List<AudioClip> bgmlists;
+    private List<AudioClip> sfxlists;
     // Start is called before the first frame update
     void Awake()
     {  
@@ -20,6 +21,7 @@ public class AssetsLoader : MonoBehaviour
         }
         UISprite = Resources.Load<SpriteAtlas>(GlobalReferences.PathReferences.UI_BuffPath + GlobalReferences.UIReferences.UIAtlas);
         bgmlists = new List<AudioClip>(Resources.LoadAll<AudioClip>(GlobalReferences.PathReferences.BGMPath));
+        sfxlists = new List<AudioClip>(Resources.LoadAll<AudioClip>(GlobalReferences.PathReferences.SFXPath));
     }
 
     public Sprite GetBuffSprite(string name)
@@ -29,5 +31,9 @@ public class AssetsLoader : MonoBehaviour
 
     public AudioClip GetBGM(string name){
         return bgmlists.Find(x => x.name == name);
+    }
+
+    public AudioClip GetSFX(string name){
+        return sfxlists.Find(x => x.name == name);
     }
 }
