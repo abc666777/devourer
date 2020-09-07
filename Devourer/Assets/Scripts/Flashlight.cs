@@ -14,7 +14,7 @@ public class Flashlight : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.localPosition = new Vector3(-0.606f, 0.484f, 0);
+        transform.localPosition = new Vector3(-0.02200007f, 1.15f, 0);
         Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector2 lookDir = mousePos - new Vector3(lightRb.position.x, lightRb.position.y, 0);
         float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;

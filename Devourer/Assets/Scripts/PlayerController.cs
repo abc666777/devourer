@@ -5,7 +5,7 @@ using UnityEngine.Experimental.Rendering.Universal;
 
 public class PlayerController : MonoBehaviour
 {
-    private float speed = 5f;
+    private float speed = 7.5f;
     private const float speedPenalty = 0.5f;
     private const float speedBonus = 1.5f;
     private float movingPenalty = 1;
@@ -19,7 +19,7 @@ public class PlayerController : MonoBehaviour
 
     public Light2D circleLight;
     public float hunger = 100;
-    public float progress = 0;
+    public float progress = 33;
 
     public float score = 0;
     public const float maxProgress = 100;
@@ -55,6 +55,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        anim.SetBool("isHungry", playerStatus.isHungry);
         if (hunger > 100) hunger = 100;
         SetSpeed();
         float x = Input.GetAxis(GlobalReferences.InputReferences.InputHorizontal);
@@ -88,8 +89,8 @@ public class PlayerController : MonoBehaviour
             level = 2;
             UIManager.instance.ActivateMilestoneLayout(level);
             transform.localScale = new Vector3(1.5f, 1.5f, 0);
-            light.pointLightOuterRadius = 8f;
-            circleLight.pointLightOuterRadius = 1.5f;
+            light.pointLightOuterRadius = 11f;
+            circleLight.pointLightOuterRadius = 2.5f;
             GameManager.instance.AddMonster(2);
         }
         else if (progress >= 66 && level < 3)
@@ -98,7 +99,7 @@ public class PlayerController : MonoBehaviour
             UIManager.instance.ActivateMilestoneLayout(level);
             transform.localScale = new Vector3(2f, 2f, 0);
             light.pointLightOuterRadius = 12f;
-            circleLight.pointLightOuterRadius = 2;
+            circleLight.pointLightOuterRadius = 3;
             GameManager.instance.AddMonster(3);
             GameManager.instance.AddBomb();
 

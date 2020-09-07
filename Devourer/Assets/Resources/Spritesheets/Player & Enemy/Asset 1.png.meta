@@ -4,130 +4,130 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 7791214535279931073
-    second: Player_Eat_2
+    second: Player_Idle_3
   - first:
       213: -6084348050078671448
-    second: Player_Eat_1
+    second: Player_Idle_2
   - first:
       213: 4258501782965630240
-    second: Player_Eat_2
+    second: Player_Idle_3
   - first:
       213: -5257567865460593211
-    second: Player_Eat_3
+    second: Player_Idle_4
   - first:
       213: -6961541962001274732
-    second: Player_Eat_4
+    second: Player_Idle_5
   - first:
       213: 4470353647238002604
-    second: Player_Eat_5
+    second: Player_Idle_6
   - first:
       213: 1749800677929036034
-    second: Player_Eat_6
+    second: Player_Idle_7
   - first:
       213: -5145085495823735326
-    second: Player_Eat_7
+    second: Player_Eat_1
   - first:
       213: -2391611583166320900
-    second: Player_Eat_8
+    second: Player_Eat_2
   - first:
       213: -2664700089502827160
-    second: Player_Eat_9
+    second: Player_Eat_3
   - first:
       213: 7564070324418017482
-    second: Player_Eat_10
+    second: Player_Eat_4
   - first:
       213: 3849114838569105992
-    second: Player_Eat_11
+    second: Player_Eat_5
   - first:
       213: -4240284859024641805
-    second: Player_Eat_12
+    second: Player_Eat_6
   - first:
       213: -5023729970713797157
-    second: Player_Eat_13
+    second: Player_Eat_7
   - first:
       213: 5142188317097781764
-    second: Player_Eat_14
+    second: Player_Hungry_1
   - first:
       213: 7371961213768328730
-    second: Player_Eat_15
+    second: Player_Hungry_2
   - first:
       213: -6371829344515271150
-    second: Player_Eat_16
+    second: Player_Hungry_3
   - first:
       213: -1925629988809453963
-    second: Asset 1_17
+    second: Enemy_Level1_1
   - first:
       213: -3979473225533144271
-    second: Player_Eat_17
+    second: Player_Hungry_4
   - first:
       213: 4946479027217588525
-    second: Player_Eat_18
+    second: Player_Hungry_5
   - first:
       213: 1225742298531716033
-    second: Player_Eat_19
+    second: Player_Hungry_6
   - first:
       213: 2162611207520885933
-    second: Player_Eat_20
+    second: Player_Hungry_7
   - first:
       213: 968414360915443807
-    second: Asset 1_22
+    second: Enemy_Level1_2
   - first:
       213: 5781043206963115316
-    second: Asset 1_23
+    second: Enemy_Level1_3
   - first:
       213: -4574160135797772753
-    second: Asset 1_24
+    second: Enemy_Level1_4
   - first:
       213: 7714343635029502247
-    second: Asset 1_25
+    second: Enemy_Level1_5
   - first:
       213: 4419397406246125147
-    second: Asset 1_26
+    second: Enemy_Level1_6
   - first:
       213: 4944728426621439903
-    second: Asset 1_27
+    second: Enemy_Level1_7
   - first:
       213: 1732627815454981559
-    second: Asset 1_28
+    second: HungerBuff_1
   - first:
       213: -409678790006496993
-    second: Asset 1_29
+    second: HungerBuff_2
   - first:
       213: 3726600081794704359
-    second: Asset 1_30
+    second: HungerBuff_3
   - first:
       213: -1438673178076020951
-    second: Asset 1_31
+    second: HungerBuff_4
   - first:
       213: 7393768484237487634
-    second: Asset 1_32
+    second: HungerBuff_5
   - first:
       213: -5445741391609113300
-    second: Asset 1_33
+    second: HungerBuff_6
   - first:
       213: -6425117454817526255
-    second: Asset 1_34
+    second: HungerBuff_7
   - first:
       213: 2112466568922831892
-    second: Asset 1_35
+    second: Enemy_Level2_1
   - first:
       213: 5855063904451915127
-    second: Asset 1_36
+    second: Enemy_Level2_2
   - first:
       213: 1437758357018389873
-    second: Asset 1_37
+    second: Enemy_Level2_3
   - first:
       213: 2281246430903429291
-    second: Asset 1_38
+    second: Enemy_Level2_4
   - first:
       213: -5964496469780243808
-    second: Asset 1_39
+    second: Enemy_Level2_5
   - first:
       213: -6203958933028490129
-    second: Asset 1_40
+    second: Enemy_Level2_6
   - first:
       213: 5013435831775850911
-    second: Asset 1_41
+    second: Enemy_Level2_7
   - first:
       213: 2830872122120974743
     second: Asset 1_42
@@ -199,7 +199,7 @@ TextureImporter:
     second: Asset 1_64
   - first:
       213: 7791214535279931073
-    second: Player_Idle
+    second: Player_Idle_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -297,7 +297,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player_Idle
+      name: Player_Idle_1
       rect:
         serializedVersion: 2
         x: 152
@@ -318,7 +318,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Eat_1
+      name: Player_Idle_2
       rect:
         serializedVersion: 2
         x: 427
@@ -339,7 +339,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Eat_2
+      name: Player_Idle_3
       rect:
         serializedVersion: 2
         x: 703
@@ -360,7 +360,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Eat_3
+      name: Player_Idle_4
       rect:
         serializedVersion: 2
         x: 979
@@ -381,7 +381,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Eat_4
+      name: Player_Idle_5
       rect:
         serializedVersion: 2
         x: 1256
@@ -402,7 +402,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Eat_5
+      name: Player_Idle_6
       rect:
         serializedVersion: 2
         x: 1533
@@ -423,7 +423,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Eat_6
+      name: Player_Idle_7
       rect:
         serializedVersion: 2
         x: 1809
@@ -444,7 +444,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Eat_7
+      name: Player_Eat_1
       rect:
         serializedVersion: 2
         x: 152
@@ -465,7 +465,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Eat_8
+      name: Player_Eat_2
       rect:
         serializedVersion: 2
         x: 427
@@ -486,7 +486,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Eat_9
+      name: Player_Eat_3
       rect:
         serializedVersion: 2
         x: 703
@@ -507,7 +507,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Eat_10
+      name: Player_Eat_4
       rect:
         serializedVersion: 2
         x: 972
@@ -528,7 +528,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Eat_11
+      name: Player_Eat_5
       rect:
         serializedVersion: 2
         x: 1256
@@ -549,7 +549,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Eat_12
+      name: Player_Eat_6
       rect:
         serializedVersion: 2
         x: 1533
@@ -570,7 +570,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Eat_13
+      name: Player_Eat_7
       rect:
         serializedVersion: 2
         x: 1807
@@ -591,7 +591,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Eat_14
+      name: Player_Hungry_1
       rect:
         serializedVersion: 2
         x: 152
@@ -612,7 +612,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Eat_15
+      name: Player_Hungry_2
       rect:
         serializedVersion: 2
         x: 427
@@ -633,7 +633,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Eat_16
+      name: Player_Hungry_3
       rect:
         serializedVersion: 2
         x: 703
@@ -654,7 +654,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Eat_17
+      name: Player_Hungry_4
       rect:
         serializedVersion: 2
         x: 972
@@ -675,7 +675,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Eat_18
+      name: Player_Hungry_5
       rect:
         serializedVersion: 2
         x: 1256
@@ -696,11 +696,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Eat_19
+      name: Player_Hungry_6
       rect:
         serializedVersion: 2
-        x: 1533
-        y: 1793
+        x: 1529
+        y: 1797
         width: 252
         height: 376
       alignment: 0
@@ -717,7 +717,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Eat_20
+      name: Player_Hungry_7
       rect:
         serializedVersion: 2
         x: 1807
@@ -733,6 +733,447 @@ TextureImporter:
       bones: []
       spriteID: dac9f8b6f63230e10800000000000000
       internalID: 2162611207520885933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Level1_1
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 1459
+        width: 213
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e4c244ab9c645e0800000000000000
+      internalID: -1925629988809453963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Level1_2
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 1459
+        width: 213
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5080c9fabf707d00800000000000000
+      internalID: 968414360915443807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Level1_3
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 1459
+        width: 213
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435b83eda246a3050800000000000000
+      internalID: 5781043206963115316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Level1_4
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 1459
+        width: 213
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e650867915580c0800000000000000
+      internalID: -4574160135797772753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Level1_5
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 1458
+        width: 213
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729aa39e9aade0b60800000000000000
+      internalID: 7714343635029502247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Level1_6
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 1458
+        width: 213
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e3598a68ad45d30800000000000000
+      internalID: 4419397406246125147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Level1_7
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 1458
+        width: 213
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f0c834e443f9440800000000000000
+      internalID: 4944728426621439903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HungerBuff_1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1052
+        width: 259
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bdb72c71d78b0810800000000000000
+      internalID: 1732627815454981559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HungerBuff_2
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 1051
+        width: 259
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11a6a1af47805af0800000000000000
+      internalID: -409678790006496993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HungerBuff_3
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 1051
+        width: 259
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3a05fa70b87b330800000000000000
+      internalID: 3726600081794704359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HungerBuff_4
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 1051
+        width: 259
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f75e0fd5ec80ce0800000000000000
+      internalID: -1438673178076020951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HungerBuff_5
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 1051
+        width: 259
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e24763341fb9660800000000000000
+      internalID: 7393768484237487634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HungerBuff_6
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 1052
+        width: 259
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c255f7e9e07dc64b0800000000000000
+      internalID: -5445741391609113300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HungerBuff_7
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 1051
+        width: 259
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e707177b565d6a0800000000000000
+      internalID: -6425117454817526255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Level2_1
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 566
+        width: 398
+        height: 410
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c9880f62df05d10800000000000000
+      internalID: 2112466568922831892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Level2_2
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 567
+        width: 398
+        height: 410
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d6112899d514150800000000000000
+      internalID: 5855063904451915127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Level2_3
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 567
+        width: 398
+        height: 410
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d2eeeab91f3f310800000000000000
+      internalID: 1437758357018389873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Level2_4
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 567
+        width: 398
+        height: 410
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba86027da8d98af10800000000000000
+      internalID: 2281246430903429291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Level2_5
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 567
+        width: 398
+        height: 410
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa5daedf0ad93da0800000000000000
+      internalID: -5964496469780243808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Level2_6
+      rect:
+        serializedVersion: 2
+        x: 2278
+        y: 568
+        width: 398
+        height: 410
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64b9bb683c17e9a0800000000000000
+      internalID: -6203958933028490129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Level2_7
+      rect:
+        serializedVersion: 2
+        x: 2716
+        y: 568
+        width: 398
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91f631a35d439540800000000000000
+      internalID: 5013435831775850911
       vertices: []
       indices: 
       edges: []

@@ -20,13 +20,13 @@ public class Ai_movement : MonoBehaviour
         if (transform.position.x > 0) isLeftorRight = -1;
         else if (transform.position.x < 0) isLeftorRight = 1;
         upDirection = arrayOfUpDirection[Random.Range(0, arrayOfUpDirection.Length)];
-        movespeed = Random.Range(1, 6);
+        movespeed = Random.Range(3, 8);
         wander = StartCoroutine(Wander());
     }
     // Update is called once per frame
     void Update()
     {
-        sprite.flipX = isLeftorRight > 0 ? true : false;
+        sprite.flipX = isLeftorRight > 0 ? false : true;
         transform.position += new Vector3(movespeed * Time.deltaTime * isLeftorRight, upDirection * Time.deltaTime, 0);
     }
 
