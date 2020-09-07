@@ -23,6 +23,7 @@ public class Enemy : MonoBehaviour
         {
             if (player.level >= level && player)
             {
+                player.anim.SetTrigger("isEating");
                 player.score += (score * (player.playerStatus.hasBonus ? 2 : 1));
                 player.hunger += 5 * level;
                 player.progress += (value / player.level);
@@ -45,8 +46,14 @@ public class Enemy : MonoBehaviour
                 }
                 else
                     Destroy(player.gameObject);
-                    AudioManager.instance.PlaySFX(AssetsLoader.instance.GetSFX(GlobalReferences.SFXReferences.Eat));
-                    AudioManager.instance.PlayBGM(AssetsLoader.instance.GetBGM(GlobalReferences.BGMReferences.Ending));
+                    if(gameObject.name == "Bomb"){
+                        AudioManager.instance.PlaySFX(AssetsLoader.instance.GetSFX(GlobalReferences.SFXReferences.Bomb));
+                    }
+                    else{
+                        AudioManager.instance.PlaySFX(AssetsLoader.instance.GetSFX(GlobalReferences.SFXReferences.Death));
+                        AudioManager.instance.PlaySFX(AssetsLoader.instance.GetSFX(GlobalReferences.SFXReferences.Eat));
+                        AudioManager.instance.PlayBGM(AssetsLoader.instance.GetBGM(GlobalReferences.BGMReferences.Ending));
+                    }
             }
         }
 

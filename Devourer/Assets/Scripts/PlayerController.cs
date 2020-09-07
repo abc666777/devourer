@@ -42,6 +42,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        anim = GetComponent<Animator>();
         AudioManager.instance.PlayBGM(AssetsLoader.instance.GetBGM(GlobalReferences.BGMReferences.Gameplay));
         PlayerPrefs.SetFloat(GlobalReferences.score, score);
         playerStatus = new Status();
@@ -50,6 +51,7 @@ public class PlayerController : MonoBehaviour
         InvokeRepeating("HungerTimer", 1f, 1f);
     }
 
+    [HideInInspector] public Animator anim;
     // Update is called once per frame
     void Update()
     {
@@ -58,7 +60,7 @@ public class PlayerController : MonoBehaviour
         float x = Input.GetAxis(GlobalReferences.InputReferences.InputHorizontal);
         float y = Input.GetAxis(GlobalReferences.InputReferences.InputVerticle);
         if (x != 0) faceDirection = x;
-        sprite.flipX = faceDirection > 0 ? true : false;
+        sprite.flipX = faceDirection < 0 ? true : false;
         transform.Translate(Vector2.up * (speed * Time.deltaTime * y * movingPenalty));
         transform.Translate(Vector2.right * (speed * Time.deltaTime * x * movingPenalty));
         if (hunger <= 0)

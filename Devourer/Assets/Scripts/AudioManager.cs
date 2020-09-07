@@ -24,7 +24,7 @@ public class AudioManager : MonoBehaviour
     }
 
     void Start(){
-        PlayBGM(AssetsLoader.instance.GetBGM(GlobalReferences.BGMReferences.MainMenu));
+        //PlayBGM(AssetsLoader.instance.GetBGM(GlobalReferences.BGMReferences.MainMenu));
     }
 
     public void PlaySFX(AudioClip effect, float volume = 1f , float pitch = 1f){

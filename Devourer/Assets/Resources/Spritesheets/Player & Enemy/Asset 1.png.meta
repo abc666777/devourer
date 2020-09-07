@@ -1,0 +1,755 @@
+fileFormatVersion: 2
+guid: fb11e1836cc98cb4ba64c97f4a599a6f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7791214535279931073
+    second: Player_Eat_2
+  - first:
+      213: -6084348050078671448
+    second: Player_Eat_1
+  - first:
+      213: 4258501782965630240
+    second: Player_Eat_2
+  - first:
+      213: -5257567865460593211
+    second: Player_Eat_3
+  - first:
+      213: -6961541962001274732
+    second: Player_Eat_4
+  - first:
+      213: 4470353647238002604
+    second: Player_Eat_5
+  - first:
+      213: 1749800677929036034
+    second: Player_Eat_6
+  - first:
+      213: -5145085495823735326
+    second: Player_Eat_7
+  - first:
+      213: -2391611583166320900
+    second: Player_Eat_8
+  - first:
+      213: -2664700089502827160
+    second: Player_Eat_9
+  - first:
+      213: 7564070324418017482
+    second: Player_Eat_10
+  - first:
+      213: 3849114838569105992
+    second: Player_Eat_11
+  - first:
+      213: -4240284859024641805
+    second: Player_Eat_12
+  - first:
+      213: -5023729970713797157
+    second: Player_Eat_13
+  - first:
+      213: 5142188317097781764
+    second: Player_Eat_14
+  - first:
+      213: 7371961213768328730
+    second: Player_Eat_15
+  - first:
+      213: -6371829344515271150
+    second: Player_Eat_16
+  - first:
+      213: -1925629988809453963
+    second: Asset 1_17
+  - first:
+      213: -3979473225533144271
+    second: Player_Eat_17
+  - first:
+      213: 4946479027217588525
+    second: Player_Eat_18
+  - first:
+      213: 1225742298531716033
+    second: Player_Eat_19
+  - first:
+      213: 2162611207520885933
+    second: Player_Eat_20
+  - first:
+      213: 968414360915443807
+    second: Asset 1_22
+  - first:
+      213: 5781043206963115316
+    second: Asset 1_23
+  - first:
+      213: -4574160135797772753
+    second: Asset 1_24
+  - first:
+      213: 7714343635029502247
+    second: Asset 1_25
+  - first:
+      213: 4419397406246125147
+    second: Asset 1_26
+  - first:
+      213: 4944728426621439903
+    second: Asset 1_27
+  - first:
+      213: 1732627815454981559
+    second: Asset 1_28
+  - first:
+      213: -409678790006496993
+    second: Asset 1_29
+  - first:
+      213: 3726600081794704359
+    second: Asset 1_30
+  - first:
+      213: -1438673178076020951
+    second: Asset 1_31
+  - first:
+      213: 7393768484237487634
+    second: Asset 1_32
+  - first:
+      213: -5445741391609113300
+    second: Asset 1_33
+  - first:
+      213: -6425117454817526255
+    second: Asset 1_34
+  - first:
+      213: 2112466568922831892
+    second: Asset 1_35
+  - first:
+      213: 5855063904451915127
+    second: Asset 1_36
+  - first:
+      213: 1437758357018389873
+    second: Asset 1_37
+  - first:
+      213: 2281246430903429291
+    second: Asset 1_38
+  - first:
+      213: -5964496469780243808
+    second: Asset 1_39
+  - first:
+      213: -6203958933028490129
+    second: Asset 1_40
+  - first:
+      213: 5013435831775850911
+    second: Asset 1_41
+  - first:
+      213: 2830872122120974743
+    second: Asset 1_42
+  - first:
+      213: 3347771954476192003
+    second: Asset 1_43
+  - first:
+      213: -1305042108186012084
+    second: Asset 1_44
+  - first:
+      213: -163472798065889114
+    second: Asset 1_45
+  - first:
+      213: -7134869678712490150
+    second: Asset 1_46
+  - first:
+      213: 1982375118632819528
+    second: Asset 1_47
+  - first:
+      213: -3502115193552324624
+    second: Asset 1_48
+  - first:
+      213: 9048481253832403295
+    second: Asset 1_49
+  - first:
+      213: 2689049189936045023
+    second: Asset 1_50
+  - first:
+      213: -1138663849022144270
+    second: Asset 1_51
+  - first:
+      213: 4031631547437430612
+    second: Asset 1_52
+  - first:
+      213: 3581276485974026181
+    second: Asset 1_53
+  - first:
+      213: 1373316872738689960
+    second: Asset 1_54
+  - first:
+      213: 6494155665522947783
+    second: Asset 1_55
+  - first:
+      213: -741123088544123236
+    second: Asset 1_56
+  - first:
+      213: -4553667350597616088
+    second: Asset 1_57
+  - first:
+      213: 7884846271980291026
+    second: Asset 1_58
+  - first:
+      213: 579785766877429703
+    second: Asset 1_59
+  - first:
+      213: 4975934964786647501
+    second: Asset 1_60
+  - first:
+      213: 6591712419817287984
+    second: Asset 1_61
+  - first:
+      213: -3687861604588535344
+    second: Asset 1_62
+  - first:
+      213: -9074006093410006553
+    second: Asset 1_63
+  - first:
+      213: 2591850926726350781
+    second: Asset 1_64
+  - first:
+      213: 7791214535279931073
+    second: Player_Idle
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Player_Idle
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 2633
+        width: 252
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce68381754ff1c60800000000000000
+      internalID: 7791214535279931073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Eat_1
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 2633
+        width: 252
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad58394fad009ba0800000000000000
+      internalID: -6084348050078671448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Eat_2
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 2633
+        width: 252
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025b8012fcc391b30800000000000000
+      internalID: 4258501782965630240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Eat_3
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 2633
+        width: 252
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd66b4d1ed5907b0800000000000000
+      internalID: -5257567865460593211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Eat_4
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 2633
+        width: 252
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49820f92872a36f90800000000000000
+      internalID: -6961541962001274732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Eat_5
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 2633
+        width: 252
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca73efb05f2e90e30800000000000000
+      internalID: 4470353647238002604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Eat_6
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 2633
+        width: 252
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209a2bb127a884810800000000000000
+      internalID: 1749800677929036034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Eat_7
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 2210
+        width: 252
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5696a500cf898b0800000000000000
+      internalID: -5145085495823735326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Eat_8
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 2208
+        width: 252
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe69a8bfe94fced0800000000000000
+      internalID: -2391611583166320900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Eat_9
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 2208
+        width: 252
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d7b340365150bd0800000000000000
+      internalID: -2664700089502827160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Eat_10
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 2208
+        width: 252
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8720742e9f8f860800000000000000
+      internalID: 7564070324418017482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Eat_11
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 2208
+        width: 252
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ab89c5d8dca6530800000000000000
+      internalID: 3849114838569105992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Eat_12
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 2208
+        width: 252
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f07e5ff26b7725c0800000000000000
+      internalID: -4240284859024641805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Eat_13
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 2208
+        width: 252
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bddde106530284ab0800000000000000
+      internalID: -5023729970713797157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Eat_14
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1793
+        width: 252
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ae6c8a709bc5740800000000000000
+      internalID: 5142188317097781764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Eat_15
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 1793
+        width: 252
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a166e946aa77e4660800000000000000
+      internalID: 7371961213768328730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Eat_16
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 1793
+        width: 252
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216d1c678f6b297a0800000000000000
+      internalID: -6371829344515271150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Eat_17
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 1793
+        width: 252
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1334bee7f2216c8c0800000000000000
+      internalID: -3979473225533144271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Eat_18
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 1793
+        width: 252
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21693ab77c65a440800000000000000
+      internalID: 4946479027217588525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Eat_19
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 1793
+        width: 252
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb57225026b20110800000000000000
+      internalID: 1225742298531716033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Eat_20
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 1793
+        width: 252
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac9f8b6f63230e10800000000000000
+      internalID: 2162611207520885933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

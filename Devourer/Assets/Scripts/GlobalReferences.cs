@@ -11,6 +11,7 @@ public class GlobalReferences
     public const string canvas = "Canvas";
     public const string highScore = "High Score";
     public const string score = "Score";
+
     public class InputReferences
     {
         public const string InputHorizontal = "Horizontal";
@@ -45,9 +46,12 @@ public class GlobalReferences
         public const string Setting = "Setting";
     }
 
-    public class SFXReferences{
+    public class SFXReferences
+    {
         public const string Eat = "Eat";
+        public const string Bomb = "Bomb";
         public const string ButtonOnClick = "Button";
+        public const string Death = "Death";
     }
 }
 
