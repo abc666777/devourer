@@ -130,46 +130,46 @@ TextureImporter:
     second: Enemy_Level2_7
   - first:
       213: 2830872122120974743
-    second: Asset 1_42
+    second: Enemy_Level3_1
   - first:
       213: 3347771954476192003
-    second: Asset 1_43
+    second: Enemy_Level3_2
   - first:
       213: -1305042108186012084
-    second: Asset 1_44
+    second: Enemy_Level3_3
   - first:
       213: -163472798065889114
-    second: Asset 1_45
+    second: Enemy_Level3_4
   - first:
       213: -7134869678712490150
-    second: Asset 1_46
+    second: Enemy_Level3_5
   - first:
       213: 1982375118632819528
-    second: Asset 1_47
+    second: Enemy_Level3_6
   - first:
       213: -3502115193552324624
-    second: Asset 1_48
+    second: Enemy_Level3_7
   - first:
       213: 9048481253832403295
-    second: Asset 1_49
+    second: EnemyLevel4_1
   - first:
       213: 2689049189936045023
-    second: Asset 1_50
+    second: Enemy_Level4_2
   - first:
       213: -1138663849022144270
-    second: Asset 1_51
+    second: EnemyLevel4_3
   - first:
       213: 4031631547437430612
-    second: Asset 1_52
+    second: EnemyLevel4_4
   - first:
       213: 3581276485974026181
-    second: Asset 1_53
+    second: EnemyLevel4_5
   - first:
       213: 1373316872738689960
-    second: Asset 1_54
+    second: EnemyLevel4_6
   - first:
       213: 6494155665522947783
-    second: Asset 1_55
+    second: EnemyLevel4_7
   - first:
       213: -741123088544123236
     second: Asset 1_56
@@ -1166,7 +1166,7 @@ TextureImporter:
         width: 398
         height: 410
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1174,6 +1174,300 @@ TextureImporter:
       bones: []
       spriteID: f91f631a35d439540800000000000000
       internalID: 5013435831775850911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Level3_1
+      rect:
+        serializedVersion: 2
+        x: 2219
+        y: 2634
+        width: 327
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791b39b4237494720800000000000000
+      internalID: 2830872122120974743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Level3_2
+      rect:
+        serializedVersion: 2
+        x: 2588
+        y: 2634
+        width: 327
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3019197fadca57e20800000000000000
+      internalID: 3347771954476192003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Level3_3
+      rect:
+        serializedVersion: 2
+        x: 2953
+        y: 2634
+        width: 327
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4655a4fd1f83ede0800000000000000
+      internalID: -1305042108186012084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Level3_4
+      rect:
+        serializedVersion: 2
+        x: 3333
+        y: 2634
+        width: 327
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0f7d43b5a3bbdf0800000000000000
+      internalID: -163472798065889114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Level3_5
+      rect:
+        serializedVersion: 2
+        x: 3704
+        y: 2634
+        width: 327
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57f2a154d9dbfc90800000000000000
+      internalID: -7134869678712490150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Level3_6
+      rect:
+        serializedVersion: 2
+        x: 4070
+        y: 2634
+        width: 327
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b9ea5daafc28b10800000000000000
+      internalID: 1982375118632819528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Level3_7
+      rect:
+        serializedVersion: 2
+        x: 4414
+        y: 2634
+        width: 327
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7b0d559ccf56fc0800000000000000
+      internalID: -3502115193552324624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyLevel4_1
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 0
+        width: 398
+        height: 497
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59267b62c9a29d70800000000000000
+      internalID: 9048481253832403295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Level4_2
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 0
+        width: 398
+        height: 497
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb90b5bdfb615520800000000000000
+      internalID: 2689049189936045023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyLevel4_3
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 0
+        width: 398
+        height: 497
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0c4702347a230f0800000000000000
+      internalID: -1138663849022144270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyLevel4_4
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 0
+        width: 398
+        height: 497
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457344a288b33f730800000000000000
+      internalID: 4031631547437430612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyLevel4_5
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 398
+        height: 497
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7e0f45dff33b130800000000000000
+      internalID: 3581276485974026181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyLevel4_6
+      rect:
+        serializedVersion: 2
+        x: 2365
+        y: 0
+        width: 398
+        height: 497
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3d3ab6b600f0310800000000000000
+      internalID: 1373316872738689960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyLevel4_7
+      rect:
+        serializedVersion: 2
+        x: 2804
+        y: 0
+        width: 398
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6f5979b20ef1a50800000000000000
+      internalID: 6494155665522947783
       vertices: []
       indices: 
       edges: []
