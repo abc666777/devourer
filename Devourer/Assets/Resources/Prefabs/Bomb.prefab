@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3844451685790594929}
   - component: {fileID: 3844451685790594930}
   - component: {fileID: 3844451685790594933}
+  - component: {fileID: 4102236414140329377}
   m_Layer: 0
   m_Name: Bomb
   m_TagString: Untagged
@@ -28,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 3844451685790594830}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.757, y: -0.822, z: 0}
-  m_LocalScale: {x: 5.1548758, y: 5.1548758, z: 5.1548758}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -72,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1431985591090215868, guid: e17987f9bee195b44ae69026d4b7931a,
+  m_Sprite: {fileID: -8567876009638636327, guid: 088b7680b49315943a89e15d4e30c1e3,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -97,18 +98,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0018940121, y: 0.0036304668}
+  m_Offset: {x: 0.024561226, y: 0.01271522}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.19, y: 0.18}
+    oldSize: {x: 0.92, y: 0.91}
     newSize: {x: 0.19, y: 0.2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.18555582, y: 0.17387621}
+  m_Size: {x: 0.7158574, y: 0.72199416}
   m_EdgeRadius: 0
 --- !u!114 &3844451685790594933
 MonoBehaviour:
@@ -122,3 +123,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79b78f3abd69a8c4481cc927fc2a20b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &4102236414140329377
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3844451685790594830}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7540ce18c458106409942e1dc5760602, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

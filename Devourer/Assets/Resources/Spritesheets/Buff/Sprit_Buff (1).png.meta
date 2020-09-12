@@ -1,0 +1,1412 @@
+fileFormatVersion: 2
+guid: 088b7680b49315943a89e15d4e30c1e3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8567876009638636327
+    second: bomb
+  - first:
+      213: -1250740787891808556
+    second: bomb2
+  - first:
+      213: 4571130245858645847
+    second: bomb3
+  - first:
+      213: -8780538238837196987
+    second: bomb4
+  - first:
+      213: -4618644765594876356
+    second: bomb5
+  - first:
+      213: -3540342652609340308
+    second: bomb6
+  - first:
+      213: 5743228819604204707
+    second: bomb7
+  - first:
+      213: -8552509606967361432
+    second: bomb8
+  - first:
+      213: -2678851412883190419
+    second: bomb9
+  - first:
+      213: -6106126645446071327
+    second: Sprit_Buff (1)_9
+  - first:
+      213: -6305312778199183968
+    second: Sprit_Buff (1)_10
+  - first:
+      213: 8123016315758045706
+    second: Sprit_Buff (1)_11
+  - first:
+      213: 7462031119148874038
+    second: Sprit_Buff (1)_12
+  - first:
+      213: 2809424062601309149
+    second: Sprit_Buff (1)_13
+  - first:
+      213: -3609551915254123345
+    second: Sprit_Buff (1)_14
+  - first:
+      213: 849036104323863328
+    second: Sprit_Buff (1)_15
+  - first:
+      213: -3459228496885661015
+    second: Sprit_Buff (1)_16
+  - first:
+      213: 6412869284950150346
+    second: Sprit_Buff (1)_17
+  - first:
+      213: 6578239279532565563
+    second: Sprit_Buff (1)_18
+  - first:
+      213: 3026628508625157337
+    second: Sprit_Buff (1)_19
+  - first:
+      213: -6568825685165958039
+    second: Sprit_Buff (1)_20
+  - first:
+      213: 8770904199407088408
+    second: Sprit_Buff (1)_21
+  - first:
+      213: 4883935613030822592
+    second: Sprit_Buff (1)_22
+  - first:
+      213: 3881288715918470652
+    second: Sprit_Buff (1)_23
+  - first:
+      213: 8110545700575467939
+    second: Sprit_Buff (1)_24
+  - first:
+      213: 5715658609566736812
+    second: Sprit_Buff (1)_25
+  - first:
+      213: -6312621080196906693
+    second: Sprit_Buff (1)_26
+  - first:
+      213: -6061291421136273920
+    second: Sprit_Buff (1)_27
+  - first:
+      213: -512182752405580696
+    second: Sprit_Buff (1)_28
+  - first:
+      213: 2116295942815496232
+    second: Sprit_Buff (1)_29
+  - first:
+      213: -5722073299124373015
+    second: Sprit_Buff (1)_30
+  - first:
+      213: 1855797284656172470
+    second: Sprit_Buff (1)_31
+  - first:
+      213: 4159874454731327075
+    second: Sprit_Buff (1)_32
+  - first:
+      213: 6118591235874495444
+    second: Sprit_Buff (1)_33
+  - first:
+      213: -2987795941092905992
+    second: Sprit_Buff (1)_34
+  - first:
+      213: 1644410744935732079
+    second: Sprit_Buff (1)_35
+  - first:
+      213: 1121325163796426275
+    second: Sprit_Buff (1)_36
+  - first:
+      213: 7015916179554662116
+    second: Sprit_Buff (1)_37
+  - first:
+      213: -8619269704273447309
+    second: Sprit_Buff (1)_38
+  - first:
+      213: -5100110865992805952
+    second: Sprit_Buff (1)_39
+  - first:
+      213: -706017713747869426
+    second: Sprit_Buff (1)_40
+  - first:
+      213: 5411706831651336157
+    second: Sprit_Buff (1)_41
+  - first:
+      213: -890993671982714066
+    second: Sprit_Buff (1)_42
+  - first:
+      213: 4484432382500707016
+    second: Sprit_Buff (1)_43
+  - first:
+      213: -6288938918154171251
+    second: Sprit_Buff (1)_44
+  - first:
+      213: 1470200988298740650
+    second: Sprit_Buff (1)_45
+  - first:
+      213: 4631202018443570537
+    second: Sprit_Buff (1)_46
+  - first:
+      213: 8788788605291508902
+    second: Sprit_Buff (1)_47
+  - first:
+      213: -1433356903880154720
+    second: Sprit_Buff (1)_48
+  - first:
+      213: 7924119396026682753
+    second: Sprit_Buff (1)_49
+  - first:
+      213: 3745140569518203988
+    second: Sprit_Buff (1)_50
+  - first:
+      213: 6533593690279492338
+    second: Sprit_Buff (1)_51
+  - first:
+      213: 8033196012045465461
+    second: Sprit_Buff (1)_52
+  - first:
+      213: -8311357490408344115
+    second: Sprit_Buff (1)_53
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bomb
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 976
+        width: 92
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4d5ede92ac81980800000000000000
+      internalID: -8567876009638636327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb2
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 978
+        width: 88
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6dd9f41e974aee0800000000000000
+      internalID: -1250740787891808556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb3
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 975
+        width: 93
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757d27e5dbaef6f30800000000000000
+      internalID: 4571130245858645847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb4
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 967
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547ff593ef2452680800000000000000
+      internalID: -8780538238837196987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb5
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 965
+        width: 113
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36000b6e0747efb0800000000000000
+      internalID: -4618644765594876356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb6
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 967
+        width: 107
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c5e007d1d2edec0800000000000000
+      internalID: -3540342652609340308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb7
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 972
+        width: 98
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac6b48be2c04bf40800000000000000
+      internalID: 5743228819604204707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb8
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 973
+        width: 96
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860489a53d16f4980800000000000000
+      internalID: -8552509606967361432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb9
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 976
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d4b0945dec2dad0800000000000000
+      internalID: -2678851412883190419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_9
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 854
+        width: 92
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eba3a8ea2ea24ba0800000000000000
+      internalID: -6106126645446071327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_10
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 857
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0adc4b96f670f78a0800000000000000
+      internalID: -6305312778199183968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_11
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 852
+        width: 98
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ae5753d40cab070800000000000000
+      internalID: 8123016315758045706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_12
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 847
+        width: 108
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63977cf64c57e8760800000000000000
+      internalID: 7462031119148874038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_13
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 845
+        width: 113
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb29cacc441df620800000000000000
+      internalID: 2809424062601309149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_14
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 847
+        width: 107
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa472f448ab48edc0800000000000000
+      internalID: -3609551915254123345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_15
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 852
+        width: 98
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02394b7a6d168cb00800000000000000
+      internalID: 849036104323863328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_16
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 853
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2c836820a5effc0800000000000000
+      internalID: -3459228496885661015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_17
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 855
+        width: 91
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc877843a61ff850800000000000000
+      internalID: 6412869284950150346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_18
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 735
+        width: 92
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b346f0095c99a4b50800000000000000
+      internalID: 6578239279532565563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_19
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 737
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc3ca3c79eb00a20800000000000000
+      internalID: 3026628508625157337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_20
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 732
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c983ca7d7d6d4a0800000000000000
+      internalID: -6568825685165958039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_21
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 728
+        width: 108
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81334ac26e288b970800000000000000
+      internalID: 8770904199407088408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_22
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 726
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2f498509937c340800000000000000
+      internalID: 4883935613030822592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_23
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 728
+        width: 107
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd6d0fe58b1dd530800000000000000
+      internalID: 3881288715918470652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_24
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 732
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a95f59d7527e8070800000000000000
+      internalID: 8110545700575467939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_25
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 734
+        width: 95
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1e0a8f839125f40800000000000000
+      internalID: 5715658609566736812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_26
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 735
+        width: 91
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b318831c2901568a0800000000000000
+      internalID: -6312621080196906693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_27
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 615
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ebc0b0197f1eba0800000000000000
+      internalID: -6061291421136273920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_28
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 618
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86498c6108c54e8f0800000000000000
+      internalID: -512182752405580696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_29
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 614
+        width: 98
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8283e1782f79e5d10800000000000000
+      internalID: 2116295942815496232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_30
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 607
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9b1fab6ac1790b0800000000000000
+      internalID: -5722073299124373015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_31
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 604
+        width: 113
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bdc0174ccd11c910800000000000000
+      internalID: 1855797284656172470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_32
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 607
+        width: 107
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3668b70d6c7dab930800000000000000
+      internalID: 4159874454731327075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_33
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 613
+        width: 98
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db1e14bf4a99e450800000000000000
+      internalID: 6118591235874495444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_34
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 614
+        width: 96
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbadcdeb673986d0800000000000000
+      internalID: -2987795941092905992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_35
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 614
+        width: 91
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63dabc2cde12d610800000000000000
+      internalID: 1644410744935732079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_36
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 495
+        width: 92
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32eeac1ab4fbf8f00800000000000000
+      internalID: 1121325163796426275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_37
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 498
+        width: 88
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e67548e79a8d5160800000000000000
+      internalID: 7015916179554662116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_38
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 493
+        width: 98
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376be7deed3326880800000000000000
+      internalID: -8619269704273447309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_39
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 487
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1936d5034c839b0800000000000000
+      internalID: -5100110865992805952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_40
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 484
+        width: 113
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01cce641a8b336f0800000000000000
+      internalID: -706017713747869426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_41
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 486
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddfe121e0be3a1b40800000000000000
+      internalID: 5411706831651336157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_42
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 491
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23795cd9fd82a3f0800000000000000
+      internalID: -890993671982714066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_43
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 494
+        width: 96
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca963a0e77eb3e30800000000000000
+      internalID: 4484432382500707016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_44
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 496
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c8a49cf5339b8a0800000000000000
+      internalID: -6288938918154171251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_45
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 371
+        width: 97
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa389f76204376410800000000000000
+      internalID: 1470200988298740650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_46
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 374
+        width: 94
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96da668d2b5554040800000000000000
+      internalID: 4631202018443570537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_47
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 372
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4b668ebac08f970800000000000000
+      internalID: 8788788605291508902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_48
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 364
+        width: 112
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1aedb7d71bb1ce0800000000000000
+      internalID: -1433356903880154720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_49
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 362
+        width: 117
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d04fd5b9028fd60800000000000000
+      internalID: 7924119396026682753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_50
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 364
+        width: 112
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4546900618969f330800000000000000
+      internalID: 3745140569518203988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_51
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 368
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fab7d748dcfbaa50800000000000000
+      internalID: 6533593690279492338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_52
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 370
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577fd051635ab7f60800000000000000
+      internalID: 8033196012045465461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprit_Buff (1)_53
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 371
+        width: 99
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5bdeed56028ac80800000000000000
+      internalID: -8311357490408344115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -86,6 +86,7 @@ GameObject:
   - component: {fileID: 569981047744704801}
   - component: {fileID: 569981047744704800}
   - component: {fileID: 569981047744704815}
+  - component: {fileID: 1649142708}
   m_Layer: 0
   m_Name: FastMonster
   m_TagString: Untagged
@@ -102,7 +103,7 @@ Transform:
   m_GameObject: {fileID: 569981047744704814}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.96, y: 1.05, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
   - {fileID: 569981047362225817}
   m_Father: {fileID: 0}
@@ -147,7 +148,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1733274276621596944, guid: e5a2ae3e911bdb64382d8173cf2ff8c0,
+  m_Sprite: {fileID: -6106126645446071327, guid: 088b7680b49315943a89e15d4e30c1e3,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -172,18 +173,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.0066581964, y: -0.01666832}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.83, y: 0.58}
+    oldSize: {x: 0.92, y: 0.92999995}
     newSize: {x: 0.21, y: 0.2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.28, y: 1.28}
+  m_Size: {x: 0.8739102, y: 0.873827}
   m_EdgeRadius: 0
 --- !u!114 &569981047744704801
 MonoBehaviour:
@@ -232,3 +233,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!95 &1649142708
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 569981047744704814}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 465ecd65d5ca12e43ac53759eb746666, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor.UI;
+using UnityEngine.UI;
 using UnityEngine.Experimental.Rendering.Universal;
 
 public class DebuffManager : MonoBehaviour
@@ -178,6 +178,7 @@ public class DebuffManager : MonoBehaviour
     }
     public void DispelShieldBuff()
     {
+        AudioManager.instance.PlaySFX(AssetsLoader.instance.GetSFX(GlobalReferences.SFXReferences.Buff.ShieldBreak));
         player.playerStatus.isImmune = false;
         if(isShield)
             GameManager.instance.StopCoroutine(settingShieldBuff);

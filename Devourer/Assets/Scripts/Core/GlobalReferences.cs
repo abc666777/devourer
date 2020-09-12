@@ -57,6 +57,7 @@ public class GlobalReferences
             public const string SpeedBuff = "SpeedBuff";
             public const string SlowBuff = "SlowBuff";
             public const string ShieldBuff = "ShieldBuff";
+            public const string ShieldBreak = "ShieldBreak";
             public const string BonusBuff = "BonusBuff";
             public const string VisionBuff = "VisionBuff";
             public const string HungerBuff = "HungerBuff";
