@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -257,10 +257,10 @@ RectTransform:
   m_Father: {fileID: 19940810}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.3874078, y: 0.57136655}
-  m_AnchorMax: {x: 0.603767, y: 0.9285777}
-  m_AnchoredPosition: {x: 1.5099945, y: 0.6100006}
-  m_SizeDelta: {x: 0.1390686, y: -2.7899933}
+  m_AnchorMin: {x: 0.38000003, y: 0.5776335}
+  m_AnchorMax: {x: 0.6457483, y: 1}
+  m_AnchoredPosition: {x: 0.5, y: -7}
+  m_SizeDelta: {x: 3.0968323, y: 4.2692566}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &341901351
 MonoBehaviour:
@@ -622,10 +622,10 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 28
+  m_fontSize: 33.5
   m_fontSizeBase: 28
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -1207,10 +1207,10 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 28
+  m_fontSize: 34.85
   m_fontSizeBase: 28
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -1311,10 +1311,10 @@ RectTransform:
   m_Father: {fileID: 19940810}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.40100002, y: 0.6211056}
-  m_AnchorMax: {x: 0.596, y: 0.9285777}
-  m_AnchoredPosition: {x: 0.5, y: 0.5}
-  m_SizeDelta: {x: -1, y: 1}
+  m_AnchorMin: {x: 0.425, y: 0.61489445}
+  m_AnchorMax: {x: 0.6142518, y: 1}
+  m_AnchoredPosition: {x: 1, y: -8.099991}
+  m_SizeDelta: {x: -3.9771423, y: -1.4406128}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1648713835
 MonoBehaviour:

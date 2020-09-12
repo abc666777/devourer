@@ -67,6 +67,8 @@ public class PlayerController : MonoBehaviour
         if (hunger <= 0)
         {
             Destroy(gameObject);
+            AudioManager.instance.PlayBGM(AssetsLoader.instance.GetBGM(GlobalReferences.BGMReferences.Ending));
+            SceneManager.instance.LoadScene("Ending");
         }
     }
 
@@ -84,7 +86,7 @@ public class PlayerController : MonoBehaviour
         {
             return;
         }
-        if (progress >= 33 && progress < 66 && level < 2)
+        if (progress >= 50 && progress < 100 && level < 2)
         {
             level = 2;
             UIManager.instance.ActivateMilestoneLayout(level);
@@ -93,7 +95,7 @@ public class PlayerController : MonoBehaviour
             circleLight.pointLightOuterRadius = 2.5f;
             GameManager.instance.AddMonster(2);
         }
-        else if (progress >= 66 && level < 3)
+        else if (progress >= 100 && level < 3)
         {
             level = 3;
             UIManager.instance.ActivateMilestoneLayout(level);
