@@ -1094,7 +1094,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1471254819}
-        m_MethodName: SetMasterVolume
+        m_MethodName: SetBGMVolume
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 486218228}
@@ -2275,7 +2275,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 507.7279, y: -234.6702}
+  m_AnchoredPosition: {x: 313.7279, y: -113.17018}
   m_SizeDelta: {x: 330, y: 32.33}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &730981008
@@ -3363,7 +3363,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1471254819}
-        m_MethodName: SetMasterVolume
+        m_MethodName: SetSFXVolume
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1078539525}
@@ -4209,7 +4209,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 507.7279, y: -317.0002}
+  m_AnchoredPosition: {x: 313.7279, y: -195.50018}
   m_SizeDelta: {x: 330, y: 32.33}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1273935469
@@ -4696,7 +4696,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 72
+  m_fontSize: 63.9
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -6075,7 +6075,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 507.7279, y: -399.33023}
+  m_AnchoredPosition: {x: 313.7279, y: -277.83017}
   m_SizeDelta: {x: 330, y: 32.33}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1786440682
